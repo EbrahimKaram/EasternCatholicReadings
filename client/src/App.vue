@@ -28,8 +28,8 @@
         <p class="text-lg font-semibold text-stone-600 dark:text-stone-300">
           {{ rite === 'maronite' ? 'Maronite Rite' : 'Romanian Byzantine Rite' }}
         </p>
-        <p v-if="rite === 'byzantine'" class="text-stone-600 dark:text-stone-400 italic">Scripture readings for the Romanian Byzantine Liturgies from the <a href="https://www.stgeorgeoh.org/calendar" target="_blank" rel="noopener noreferrer" class="underline">Saint George Cathedral Calendar.</a>
-          We are specifically following the readings as outlined by the Romanian <a href="https://romaniancatholic.org/" target="_blank" rel="noopener noreferrer" class="underline">Catholic Diocese Eparchy of St. George in Canton</a>.</p>
+        <p v-if="rite === 'byzantine'" class="text-stone-600 dark:text-stone-400 italic">Romanian Byzantine liturgical readings computed from Pascha and Pentecost, distilled from the <a href="https://www.stgeorgeoh.org/calendar" target="_blank" rel="noopener noreferrer" class="underline">Saint George Cathedral Calendar</a>
+          of the <a href="https://romaniancatholic.org/" target="_blank" rel="noopener noreferrer" class="underline">Eparchy of St. George in Canton</a>.</p>
         <p v-else class="text-stone-600 dark:text-stone-400 italic">Daily Maronite liturgical readings computed from the three-anchor calendar. Scripture text: Douay-Rheims via bible-api.com. External check: <a href="https://dailygospel.org/" target="_blank" rel="noopener noreferrer" class="underline">dailygospel.org</a>.</p>
 
         <!-- Rite toggle -->
@@ -189,7 +189,7 @@
       
       <footer class="mt-16 text-center text-stone-500 dark:text-stone-500 text-sm space-y-4">
         <div class="space-y-1">
-          <p>Data provided by Google Calendar</p>
+          <p>Byzantine readings computed from Pascha; Google Calendar is an optional extra source</p>
           <p class="text-xs opacity-75">Scripture texts: Douay-Rheims 1899 American Edition</p>
         </div>
 

@@ -9,7 +9,7 @@ Hopefully if you want a better reference
 https://romaniancatholic.org/liturgical-calendar
 
 ## Data Sources
-- **Byzantine calendar:** [Google Calendar](https://calendar.google.com/calendar/u/0/embed?src=9pp7p6nos1t3tca6sjo4g6hui0@group.calendar.google.com) (Derived from [St. George Cathedral](https://www.stgeorgeoh.org/calendar))
+- **Byzantine calendar:** computed in the browser from Gregorian Pascha and Pentecost, with a compact lectionary of references (`client/src/data/byzantineLectionary.json`) distilled from St. George Cathedral calendars (2024–2026). Google Calendar remains an optional extra card.
 - **Maronite calendar:** computed in the browser from Easter, 14 September, 25 December, and 6 January, with a compact lectionary of references (`client/src/data/maroniteLectionary.json`)
 - **Scripture Text:** [Bible-api.com](https://bible-api.com) (Douay-Rheims Version)
 
@@ -37,11 +37,12 @@ Then run scripts from their folders, for example:
 
 ```powershell
 python "byzantine-calendars\extract_readings.py"
+python "byzantine-calendars\distill_byzantine_lectionary.py"
 python "Maronite Readings\distill_maronite_lectionary.py"
 ```
+Byzantine and Maronite dates are predicted. The Byzantine distiller rebuilds `client/src/data/byzantineLectionary.json` from `byzantine-calendars/readings.csv`. The Maronite distiller rebuilds `client/src/data/maroniteLectionary.json` from `Maronite Readings/maronite_calendar.json` if that source is ever refreshed. The scrape script `build_maronite_calendar.py` is unused by the site.
 
-Maronite dates are predicted; the distiller rebuilds the compact lectionary from `Maronite Readings/maronite_calendar.json` if that source is ever refreshed. The scrape script `build_maronite_calendar.py` is unused by the site.
-
+In `client`, run `npm test` to check Easter, tone,
 In `client`, run `npm test` to check Easter and season-anchor logic.
 
 ## Support

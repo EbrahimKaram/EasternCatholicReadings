@@ -45,7 +45,7 @@
 
 <script setup>
 import { ref, computed } from 'vue';
-import { isHolyDayDate } from '../services/localReadingsService';
+import { isByzantineHolyDay } from '../services/byzantineService';
 
 const props = defineProps({
   modelValue: Date
@@ -109,6 +109,6 @@ const isSunday = (day) => {
 
 const isHolyDay = (day) => {
   const d = new Date(viewDate.value.getFullYear(), viewDate.value.getMonth(), day);
-  return isHolyDayDate(d);
+  return isByzantineHolyDay(d);
 };
 </script>
