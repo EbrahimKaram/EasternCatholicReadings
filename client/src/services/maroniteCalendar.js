@@ -378,55 +378,78 @@ export const temporalSlot = (input) => {
   return slot(`unknown:${year}-${pad(month)}-${pad(day)}`, weekdayName(d), 'unknown');
 };
 
-const PROTECTED_TEMPORAL = new Set([
-  'pascha:sunday',
-  'pascha:ascension',
-  'pentecost:sunday:1',
-  'holyweek:saturday',
-  'holyweek:friday',
-  'holyweek:mysteries',
-  'holyweek:hosanna',
-  'lent:lazarus',
-  'lent:friday40',
-  'lent:sunday:1',
-  'christmas:nativity',
-  'christmas:epiphany',
-  'christmas:finding',
-]);
+const toReadings = (table) => (table?.readings ?? []).map((reading) => ({
+  type: reading.type,
+  reference: reading.reference,
+  book: reading.book || '',
+  text: '',
+}));
+
+const normalizeTitle = (title) => String(title || '')
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, ' ')
+  .trim();
+
+const gospelKey = (readings) => readings
+  .filter((reading) => reading.type === 'gospel')
+  .map((reading) => reading.reference)
+  .join('|');
+
+const isDuplicateCard = (a, b) => {
+  if (!a || !b) return false;
+  if (normalizeTitle(a.liturgic_title) === normalizeTitle(b.liturgic_title)) return true;
+  const aGospel = gospelKey(a.readings);
+  const bGospel = gospelKey(b.readings);
+  return Boolean(aGospel) && aGospel === bGospel;
+};
 
 export const resolveMaroniteDay = (input, lectionary) => {
   const { year, month, day } = toDateParts(input);
   const d = civilDate(year, month, day);
   const temporal = temporalSlot(d);
   const feast = lectionary?.sanctoral?.[monthDayKey(d)];
-  const sunday = isSunday(d);
-  const protectedDay = PROTECTED_TEMPORAL.has(temporal.key);
+  const temporalTable = lectionary?.temporal?.[temporal.key];
 
-  let chosen = temporal;
-  let source = 'temporal';
-  if (feast && !protectedDay && (!sunday || feast.beatsSunday)) {
-    chosen = {
-      key: `sanctoral:${monthDayKey(d)}`,
-      title: feast.title,
+  const temporalCard = {
+    liturgic_title: temporal.title,
+    readings: toReadings(temporalTable),
+    slot: temporal.key,
+    season: temporal.season,
+    source: 'temporal',
+  };
+
+  const feastCard = feast
+    ? {
+      liturgic_title: feast.title,
+      readings: toReadings(feast),
+      slot: `sanctoral:${monthDayKey(d)}`,
       season: 'sanctoral',
-      week: null,
-    };
-    source = 'sanctoral';
-  }
+      source: 'sanctoral',
+    }
+    : null;
 
-  const table = source === 'sanctoral' ? feast : lectionary?.temporal?.[temporal.key];
-  const readings = (table?.readings ?? []).map((reading) => ({
-    type: reading.type,
-    reference: reading.reference,
-    book: reading.book || '',
-    text: '',
-  }));
+  const cards = [];
+  const temporalHasReadings = temporalCard.readings.length > 0 && temporal.season !== 'unknown';
+  if (temporalHasReadings) cards.push(temporalCard);
+  if (feastCard && !cards.some((card) => isDuplicateCard(card, feastCard))) {
+    cards.push(feastCard);
+  }
+  if (!cards.length && feastCard) cards.push(feastCard);
+
+  const primary = cards[0] ?? {
+    liturgic_title: temporal.title,
+    readings: [],
+    slot: temporal.key,
+    season: temporal.season,
+    source: 'temporal',
+  };
 
   return {
-    liturgic_title: source === 'sanctoral' ? (table?.title || chosen.title) : temporal.title,
-    readings,
-    slot: chosen.key,
-    season: chosen.season,
-    source,
+    liturgic_title: primary.liturgic_title,
+    readings: primary.readings,
+    slot: primary.slot,
+    season: primary.season,
+    source: primary.source,
+    cards,
   };
 };

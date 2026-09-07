@@ -51,15 +51,16 @@ describe('season anchors', () => {
 describe('resolveMaroniteDay overlays', () => {
   it('keeps Circumcision on weekdays and Finding on Sunday 1 January 2023', () => {
     const weekday = resolveMaroniteDay('2024-01-01', lectionary);
-    assert.equal(weekday.liturgic_title, 'Feast of the Circumcision of the Lord Jesus');
+    assert.equal(weekday.cards.some((card) => /Circumcision/.test(card.liturgic_title)), true);
     const sunday = resolveMaroniteDay('2023-01-01', lectionary);
     assert.match(sunday.liturgic_title, /Finding of the Lord/);
   });
 
-  it('lets Exaltation replace the Sunday when Sept 14 is Sunday', () => {
+  it('shows Exaltation together with the temporal Sunday when Sept 14 is Sunday', () => {
     const day = resolveMaroniteDay('2025-09-14', lectionary);
-    assert.match(day.liturgic_title, /Exaltation of the Glorious Cross/);
-    assert.equal(day.source, 'sanctoral');
+    assert.equal(day.cards.length, 2);
+    assert.equal(day.cards[0].source, 'temporal');
+    assert.match(day.cards[1].liturgic_title, /Exaltation of the Glorious Cross/);
   });
 
   it('returns gospel and epistle references for Cana Sunday', () => {
@@ -69,9 +70,12 @@ describe('resolveMaroniteDay overlays', () => {
     assert.ok(day.readings.some((r) => /Jn 2:1-11/.test(r.reference)));
   });
 
-  it('keeps Ascension over a weekday saint', () => {
+  it('shows Ascension and the coinciding saint as two cards', () => {
     const day = resolveMaroniteDay('2024-05-09', lectionary);
-    assert.equal(day.liturgic_title, 'The Ascension of Our Lord');
-    assert.equal(day.source, 'temporal');
+    assert.equal(day.cards[0].liturgic_title, 'The Ascension of Our Lord');
+    assert.equal(day.cards[0].source, 'temporal');
+    assert.equal(day.cards.length, 2);
+    assert.equal(day.cards[1].source, 'sanctoral');
+    assert.match(day.cards[1].liturgic_title, /Isaiah/);
   });
 });

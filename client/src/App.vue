@@ -132,11 +132,13 @@
             <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-700 dark:border-amber-500"></div>
             <p class="mt-4 text-stone-600 dark:text-stone-400">Loading Maronite readings…</p>
           </div>
-          <div v-else-if="maroniteReadings">
+          <div v-else-if="maroniteReadings?.length" class="space-y-8">
             <MaroniteReadingCard
-              :liturgic-title="maroniteReadings.liturgic_title"
-              :readings="maroniteReadings.readings"
-              :date="currentDate"
+              v-for="(card, idx) in maroniteReadings"
+              :key="card.slot || idx"
+              :liturgic-title="card.liturgic_title"
+              :readings="card.readings"
+              :date="idx === 0 ? currentDate : null"
             />
           </div>
           <div v-else class="text-center py-12 bg-white dark:bg-stone-800 rounded-lg shadow p-6">
