@@ -30,7 +30,7 @@
         </p>
         <p v-if="rite === 'byzantine'" class="text-stone-600 dark:text-stone-400 italic">Scripture readings for the Romanian Byzantine Liturgies from the <a href="https://www.stgeorgeoh.org/calendar" target="_blank" rel="noopener noreferrer" class="underline">Saint George Cathedral Calendar.</a>
           We are specifically following the readings as outlined by the Romanian <a href="https://romaniancatholic.org/" target="_blank" rel="noopener noreferrer" class="underline">Catholic Diocese Eparchy of St. George in Canton</a>.</p>
-        <p v-else class="text-stone-600 dark:text-stone-400 italic">Daily Maronite liturgical readings. Gospel text via <a href="https://dailygospel.org/" target="_blank" rel="noopener noreferrer" class="underline">Evangelizo</a>.</p>
+        <p v-else class="text-stone-600 dark:text-stone-400 italic">Daily Maronite liturgical readings computed from the three-anchor calendar. Scripture text: Douay-Rheims via bible-api.com. External check: <a href="https://dailygospel.org/" target="_blank" rel="noopener noreferrer" class="underline">dailygospel.org</a>.</p>
 
         <!-- Rite toggle -->
         <div class="inline-flex mt-4 rounded-lg border border-stone-300 dark:border-stone-600 overflow-hidden shadow-sm">
@@ -132,11 +132,13 @@
             <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-700 dark:border-amber-500"></div>
             <p class="mt-4 text-stone-600 dark:text-stone-400">Loading Maronite readings…</p>
           </div>
-          <div v-else-if="maroniteReadings">
+          <div v-else-if="maroniteReadings?.length" class="space-y-8">
             <MaroniteReadingCard
-              :liturgic-title="maroniteReadings.liturgic_title"
-              :readings="maroniteReadings.readings"
-              :date="currentDate"
+              v-for="(card, idx) in maroniteReadings"
+              :key="card.slot || idx"
+              :liturgic-title="card.liturgic_title"
+              :readings="card.readings"
+              :date="idx === 0 ? currentDate : null"
             />
           </div>
           <div v-else class="text-center py-12 bg-white dark:bg-stone-800 rounded-lg shadow p-6">

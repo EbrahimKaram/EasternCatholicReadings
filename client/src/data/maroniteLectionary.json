@@ -1,0 +1,6845 @@
+{
+  "temporal": {
+    "christmas:finding": {
+      "title": "Sunday of the Finding of the Lord in the Temple",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "1 R 3:5-7; 1 R 3:9-12; 1 R 3:14-14",
+          "book": "1st book of Kings"
+        },
+        {
+          "type": "psalm",
+          "reference": "He 7:11-19",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:41-52",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "christmas:weekday:01-02": {
+      "title": "Presentation of Jesus in the Temple",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 7:1-10",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:22-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "christmas:weekday:01-03": {
+      "title": "The Tenth Day after the Birth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 7:20-28",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:25-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "christmas:weekday:01-04": {
+      "title": "The Eleventh Day after the Birth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 6:9-12",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:36-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "epiphany:sunday:1": {
+      "title": "First Sunday after Epiphany",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 40:6-11",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 10:1-11",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:29-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:1:0": {
+      "title": "Monday of the First Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 10:12-18",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 1:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "epiphany:weekday:1:1": {
+      "title": "Tuesday of the First Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 11:1-6",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:19-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:1:2": {
+      "title": "Wednesday of the First Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 11:7-15",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:22-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:1:3": {
+      "title": "Thursday of the First Week of the Epiphany of our Lord",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 11:18-18; 2 Co 11:22-30",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:1:4": {
+      "title": "Friday of the First Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 12:1-10",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 14:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:weekday:1:5": {
+      "title": "Saturday of the First Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 12:11-16",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:40-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:sunday:2": {
+      "title": "Second Sunday after Epiphany",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jr 1:4-10",
+          "book": "Book of Jeremiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 4:5-15",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:35-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:2:1": {
+      "title": "Tuesday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 1:12-24",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 5:1-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "epiphany:weekday:2:2": {
+      "title": "Wednesday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 2:1-11",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 4:18-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:weekday:2:3": {
+      "title": "Thursday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 2:12-17",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 9:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:weekday:2:4": {
+      "title": "Friday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 12:17-21; 2 Co 13:1-4",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 9:35-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:weekday:2:5": {
+      "title": "Saturday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 13:5-13",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:1-6",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:sunday:3": {
+      "title": "Sunday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Nb 21:4-9",
+          "book": "Book of Numbers"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ga 3:23-29",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:1-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:0": {
+      "title": "Monday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 4:16-18; 2 Co 5:1-5; 2 Co 5:10-10",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:1-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:1": {
+      "title": "Tuesday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 5:11-21",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 9:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:3": {
+      "title": "Thursday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 6:14-18; 2 Co 7:1-1",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 9:26-41",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:4": {
+      "title": "Friday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 7:2-10",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:40-52",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "prelent:sunday:priests": {
+      "title": "Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 4:6-16",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:42-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:priests:0": {
+      "title": "Monday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 1:1-11",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:24-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:priests:1": {
+      "title": "Tuesday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 2:1-13",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:1-5",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:priests:2": {
+      "title": "Wednesday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 2:14-26",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 20:20-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:priests:5": {
+      "title": "Saturday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Tt 1:1-9",
+          "book": "Letter to Titus"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 13:13-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "prelent:sunday:righteous": {
+      "title": "Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Sg 5:1-1; Sg 5:3-6; Sg 5:8-8; Sg 5:15-16",
+          "book": ""
+        },
+        {
+          "type": "psalm",
+          "reference": "He 12:18-24",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:31-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:0": {
+      "title": "Monday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:1-13",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:1": {
+      "title": "Tuesday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:14-17",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:13-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:2": {
+      "title": "Wednesday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:25-29",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:17-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:4": {
+      "title": "Friday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 13:9-16",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:27-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:5": {
+      "title": "Saturday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 13:17-25",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:38-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:sunday:departed": {
+      "title": "Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ez 37:1-10",
+          "book": "Book of Ezekiel"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Th 5:1-11",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:19-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:0": {
+      "title": "Monday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 4:13-18",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:1": {
+      "title": "Tuesday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 1:1-12",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:8-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:2": {
+      "title": "Wednesday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 2:1-12",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:13-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:3": {
+      "title": "Thursday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 2:13-17; 2 Th 3:1-5",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:22-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:4": {
+      "title": "Friday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 15:35-44",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:33-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:departed:5": {
+      "title": "Saturday after the Sunday of the Faithful Departed",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 15:51-58",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:49-59",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:sunday:1": {
+      "title": "First Sunday of Great Lent: Cana Sunday",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 55:1-1; Is 55:6-13",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 14:14-23",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 2:1-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "lent:weekday:1:0": {
+      "title": "Ash Monday",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 5:20-21; 2 Co 6:1-7",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 6:16-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:1:1": {
+      "title": "Tuesday of the First Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 15:1-13",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 6:5-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:1:2": {
+      "title": "Wednesday of the First Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 15:14-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 6:1-4",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:1:3": {
+      "title": "Thursday of the First Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 6:6-12",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 6:25-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:1:4": {
+      "title": "Friday of the First Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 3:6-14",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 7:13-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:1:5": {
+      "title": "Saturday of the First Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 3:14-19; He 4:1-4",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:9-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:sunday:2": {
+      "title": "Second Sunday of Great Lent: Healing of the Leper",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "2 R 5:1-3; 2 R 5:9-14",
+          "book": "2nd book of Kings"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 6:12-23",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 1:35-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:2:0": {
+      "title": "Monday of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 3:6-13",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 6:22-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:2:1": {
+      "title": "Tuesday of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 2:11-17",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 7:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "prelent:weekday:priests:4": {
+      "title": "Friday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 4:1-8",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 22:24-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "prelent:weekday:righteous:3": {
+      "title": "Thursday after the Sunday of the Righteous and the Just",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 13:1-8",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:21-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:2:2": {
+      "title": "Wednesday of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 3:19-27",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:38-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:2:3": {
+      "title": "Thursday of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 4:4-10",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 8:4-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:2:4": {
+      "title": "Friday of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 1:18-25",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:23-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:2:5": {
+      "title": "Saturay of the Second Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:28-29; He 13:1-9",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 11:19-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:sunday:3": {
+      "title": "Third Sunday of Great Lent: Healing of the Hemorrhaging Woman",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Nb 15:37-41",
+          "book": "Book of Numbers"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 7:4-11",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 8:40-56",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:3:0": {
+      "title": "Monday of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 4:9-16",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:21-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "lent:weekday:3:1": {
+      "title": "Tuesday of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 8:1-9",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:3:2": {
+      "title": "Wednesay of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 2:1-7",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 17:10-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:3:3": {
+      "title": "Thursday of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 1:1-10",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:20-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:3:4": {
+      "title": "Friday of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 3:1-7",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:16-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:sunday:4": {
+      "title": "Fourth Sunday of Great Lent: Parable of the Prodigal Son",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Za 3:1-7",
+          "book": "Book of Zechariah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 13:5-13",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 15:11-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:4:0": {
+      "title": "Monday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 9:1-1; 2 Co 9:5-15",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 9:37-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:4:1": {
+      "title": "Tuesday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 16:15-24",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 8:22-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:4:2": {
+      "title": "Wednesday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 14:1-13",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 7:1-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:4:3": {
+      "title": "Thursday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 1:23-24; 2 Co 2:1-5",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 15:29-39",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:4:4": {
+      "title": "Friday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 12:21-21; 2 Co 13:1-5",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 9:27-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:4:5": {
+      "title": "Saturday of the Fourth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 4:9-19",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 3:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:sunday:5": {
+      "title": "Fifth Sunday of Great Lent: Sunday of the Paralytic",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 35:1-6; Is 35:8-8; Is 35:9-10",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Tm 5:24-25; 1 Tm 6:1-5",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 2:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:5:0": {
+      "title": "Monday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 5:3-13",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 5:1-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:5:1": {
+      "title": "Tuesday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 1:1-8",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 6:47-56",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:5:2": {
+      "title": "Wednesday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 6:1-9",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 7:11-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:5:3": {
+      "title": "Thursday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 1:6-14",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 4:33-41",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:5:4": {
+      "title": "Friday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 2:12-19",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 4:31-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:5:5": {
+      "title": "Saturday of the Fifth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 3:23-25; Col 4:1-7",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 7:31-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:sunday:6": {
+      "title": "Sixth Sunday of Great Lent: Healing of the Blind Man",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 42:6-8; Is 42:16-18",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 10:1-7",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 10:46-52",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "lent:weekday:6:0": {
+      "title": "Monday of the Sixth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 15:25-33",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:32-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "lent:weekday:6:2": {
+      "title": "Wednesday of the Sixth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 4:1-9",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:37-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:6:3": {
+      "title": "Thursday of the Sixth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Tt 2:1-8",
+          "book": "Letter to Titus"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:31-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:friday40": {
+      "title": "Friday the 40th day of Great Lent: Temptation of Jesus",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 3:6-18",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 4:1-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:lazarus": {
+      "title": "Lazarus Saturday",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:17-20; 1 Th 3:1-5",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 11:55-57; Jn 12:1-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "holyweek:hosanna": {
+      "title": "Hosanna Sunday",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Za 9:9-11; Za 9:15-15; Za 9:16-17",
+          "book": "Book of Zechariah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ph 1:1-13",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:12-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "holyweek:passion:1": {
+      "title": "Tuesday of Passion week",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:13-17",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:22-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "holyweek:passion:2": {
+      "title": "Wednesday of Passion week",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 2:5-12",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 11:47-54",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "holyweek:mysteries": {
+      "title": "Thursday of the Mysteries",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 11:23-32",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 22:1-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "holyweek:friday": {
+      "title": "Great Friday of the Crucifixion",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:12-21",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 19:31-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "holyweek:saturday": {
+      "title": "Great Saturday of the Light",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 5:1-11",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 27:62-66",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pascha:sunday": {
+      "title": "Great Sunday of the Resurrection",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jon 2:1-3; Jon 2:4-4; Jon 2:5-5; Jon 2:7-11",
+          "book": "Book of Jonah"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Co 15:12-26",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 16:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "pascha:hawarayeen:0": {
+      "title": "Monday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 15:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 16:9-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "pascha:hawarayeen:1": {
+      "title": "Tuesday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 6:3-11",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 21:1-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pascha:hawarayeen:2": {
+      "title": "Wednesday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 3:1-11",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 21:15-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pascha:hawarayeen:3": {
+      "title": "Thursday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:1-10",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 16:15-18",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "pascha:hawarayeen:4": {
+      "title": "Friday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 10:4-12",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 24:36-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pascha:hawarayeen:5": {
+      "title": "Saturday of the Week of Hawarayeen",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 2:8-15",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 20:19-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:sunday:2": {
+      "title": "Second Sunday of the Resurrection: New Sunday",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 52:7-12",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 5:11-21",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 20:26-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:2:0": {
+      "title": "Monday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 1:1-9",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 20:1-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:2:1": {
+      "title": "Tuesday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 1:10-16",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 20:11-18",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:2:2": {
+      "title": "Wednesday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 1:17-21",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 28:11-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:2:3": {
+      "title": "Thursday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 1:22-25",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 28:16-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:2:4": {
+      "title": "Friday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 2:1-10",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 2:13-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:2:5": {
+      "title": "Saturday of the Second Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 2:11-17",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 22:41-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:sunday:3": {
+      "title": "Third Sunday of the Resurrection: Appearance to the Disciples of Emmaus",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jb 42:1-6; Jb 42:12-12",
+          "book": "Book of Job"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Tm 2:8-13",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 24:13-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:3:0": {
+      "title": "Monday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 2:18-25",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 24:44-49",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:3:1": {
+      "title": "Tuesday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 3:1-12",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:28-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:3:2": {
+      "title": "Wednesday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 3:13-22",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:34-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:3:3": {
+      "title": "Thursday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 4:1-11",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:41-47",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:3:4": {
+      "title": "Friday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 4:12-19",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:48-59",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:3:5": {
+      "title": "Saturday of the Third Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 P 5:1-14",
+          "book": "First Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:60-71",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:sunday:4": {
+      "title": "Fourth Sunday of the Resurrection: Appearance to the Disciples by the Sea of Tiberias",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Gn 1:20-23",
+          "book": "Book of Genesis"
+        },
+        {
+          "type": "psalm",
+          "reference": "He 13:18-25",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 21:1-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:4:0": {
+      "title": "Monday of the Fourth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 1:1-10",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 5:1-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:4:1": {
+      "title": "Tuesday of the Fourth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:1-12",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 8:22-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:4:2": {
+      "title": "Wednesday of the Fourth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:13-20",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:1-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:4:4": {
+      "title": "Friday of the Fourth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 4:1-12",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:22-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:sunday:5": {
+      "title": "Fifth Sunday of the Resurrection: Peter Receives his Ministry",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ez 34:11-16; Ez 34:23-25",
+          "book": "Book of Ezekiel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ep 2:1-10",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 21:15-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:5:0": {
+      "title": "Monday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 1:1-10",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 22:28-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:5:2": {
+      "title": "Wednesday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 1:21-30",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:21-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:5:3": {
+      "title": "Thursday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 2:1-11",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:11-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:5:4": {
+      "title": "Friday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 2:12-18",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:18-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:5:5": {
+      "title": "Saturday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 2:19-30",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 17:24-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:sunday:6": {
+      "title": "Sixth Sunday of the Resurrection: Appearance to the 12",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Dt 31:1-3; Dt 31:6-9",
+          "book": "Book of Deuteronomy"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 10:1-13",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 24:36-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "resurrection:weekday:6:0": {
+      "title": "Monday of the Sixth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 3:1-12",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 11:1-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:6:1": {
+      "title": "Tuesday of the Sixth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 3:13-21",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 11:17-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pascha:ascension": {
+      "title": "The Ascension of Our Lord",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 1:1-14",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 16:15-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "resurrection:weekday:6:4": {
+      "title": "Friday of the Sixth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 4:8-14",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:12-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:6:5": {
+      "title": "Saturday of the Sixth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 4:15-23",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:1-6",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:sunday:7": {
+      "title": "Seventh Sunday of the Resurrection: New Commendement",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 1:15-23",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 13:31-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:7:0": {
+      "title": "Monday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 4:1-13",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:20-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:7:1": {
+      "title": "Tueday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 4:17-24",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:26-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:7:3": {
+      "title": "Thursday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 5:1-7",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:37-43",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:7:4": {
+      "title": "Friday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 5:8-21",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 12:28-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "resurrection:weekday:7:5": {
+      "title": "Saturday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 6:10-20; Ep 6:23-24",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:43-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:sunday:1": {
+      "title": "Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 2:1-21",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:15-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:0": {
+      "title": "Monday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 2:22-28",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:5-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:1": {
+      "title": "Tuesday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 2:29-39",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 4:21-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:2": {
+      "title": "Wednesday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 2:40-47",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:37-39",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:3": {
+      "title": "Thursday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 3:1-10",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:4": {
+      "title": "Friday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 3:11-21",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:8-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:1:5": {
+      "title": "Saturday of the First Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 3:22-26; Ac 4:1-4",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:27-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:sunday:2": {
+      "title": "Second Sunday of Pentecost: Most Holy Trinity",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 11:25-36",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 28:16-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:2:0": {
+      "title": "Monday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 4:5-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:2:1": {
+      "title": "Tuesday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 4:13-22",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:9-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:2:2": {
+      "title": "Wednesday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 4:23-31",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:15-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:2:3": {
+      "title": "Thursday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 5:1-11",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:18-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:2:4": {
+      "title": "Friday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 5:12-21",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:22-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:2:5": {
+      "title": "Saturday of the Second Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 5:21-33",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:1-4",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:sunday:3": {
+      "title": "Third Sunday of Pentecost: Holy Spirit Teaches",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Pr 8:22-23; Pr 8:30-36",
+          "book": "Book of Proverbs"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Co 2:1-10",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:21-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:0": {
+      "title": "Monday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 5:34-42",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:5-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:1": {
+      "title": "Tuesday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 6:1-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:12-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:2": {
+      "title": "Wednesday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:1-8",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:16-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:3": {
+      "title": "Thursday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:9-16",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:20-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:4": {
+      "title": "Friday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:17-29",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:25-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:3:5": {
+      "title": "Saturday of the Third Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:30-38",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:29-33",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:sunday:4": {
+      "title": "Fourth Sunday of Pentecost: Jesus Rejoice in the Holy Spirit",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 2:11-16",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:21-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:4:0": {
+      "title": "Monday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:44-50",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:1-5",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:4:2": {
+      "title": "Wednesday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 8:1-8",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:11-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:4:4": {
+      "title": "Friday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 8:26-40",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:21-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:4:5": {
+      "title": "Saturday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 9:1-6; Ac 9:10-11; Ac 9:15-19",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:25-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:sunday:5": {
+      "title": "Fifth Sunday of Pentecost: Call of the Apostles",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ex 1:1-7",
+          "book": "Book of Exodus"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ph 3:7-14",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:5:0": {
+      "title": "Monday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 9:19-30",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:8-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:5:1": {
+      "title": "Tuesday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 9:31-43",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 13:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "pentecost:weekday:5:3": {
+      "title": "Thursday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 10:23-27; Ac 10:34-43",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:27-33",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:5:4": {
+      "title": "Friday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 10:44-48",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:34-39",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:5:5": {
+      "title": "Saturday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 11:19-30",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:40-42; Mt 11:1-1",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:sunday:6": {
+      "title": "Sixth Sunday of Pentecost: Sending of the Apostles",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ez 3:1-7; Ez 3:10-12",
+          "book": "Book of Ezekiel"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:12-13; 1 Co 12:27-30",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:16-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:1": {
+      "title": "Tuesday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 12:12-24",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 15:10-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:3": {
+      "title": "Thursday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 13:13-25",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:1-4",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:4": {
+      "title": "Friday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 13:26-39",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:5-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:7:0": {
+      "title": "Monday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 14:1-7",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:8-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:7:1": {
+      "title": "Tuesday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 14:8-18",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:13-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:7:2": {
+      "title": "Wednesday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 14:19-28",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:17-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:7:3": {
+      "title": "Thursday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 15:1-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:25-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:7:4": {
+      "title": "Friday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 15:13-21",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:29-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:7:5": {
+      "title": "Saturday of the Seventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 15:22-30",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:38-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:8": {
+      "title": "Eighth Sunday of Pentecost: Jesus the Servant Beloved",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 42:1-8",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 8:1-11",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:14-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:8:0": {
+      "title": "Monday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 15:36-41; Ac 16:1-3; Ac 16:6-10",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:1-4",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:8:1": {
+      "title": "Tuesday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 16:11-23",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:5-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:8:3": {
+      "title": "Thursday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 17:1-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:14-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:8:4": {
+      "title": "Friday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 17:16-20; Ac 17:22-24; Ac 17:30-34",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:24-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:8:5": {
+      "title": "Saturday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 18:1-11",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:27-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:9": {
+      "title": "Ninth Sunday of Pentecost: Jesus in the Synagogue of Nazareth",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 61:1-4; Is 61:8-10",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 5:20-21; 2 Co 6:1-10",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 4:14-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:9:0": {
+      "title": "Monday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 18:18-28",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:33-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:9:1": {
+      "title": "Tuesday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 19:1-10",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:37-41",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:9:2": {
+      "title": "Wednesday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 19:11-22",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:42-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:9:3": {
+      "title": "Thursday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 19:23-29; Ac 19:35-40",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:47-51",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:9:4": {
+      "title": "Friday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 20:6-16",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:52-54",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:10": {
+      "title": "Tenth Sunday of Pentecost: Jesus and Beelzebul",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:22-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:10:0": {
+      "title": "Monday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 21:1-14",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:13-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:10:2": {
+      "title": "Wednesday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 21:27-28; Ac 21:30-40",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:23-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:10:3": {
+      "title": "Thursday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 21:27-28; Ac 21:30-40",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:23-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:10:4": {
+      "title": "Friday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 21:40-40; Ac 22:1-10",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:6-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:10:5": {
+      "title": "Saturday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 22:30-30; Ac 23:1-11",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:10-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:11": {
+      "title": "Eleventh Sunday of Pentecost: Zacchaeus the Chief Tax Collector",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:17-22",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 19:1-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:11:0": {
+      "title": "Monday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 23:12-22",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:13-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:11:1": {
+      "title": "Tuesday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 23:23-35",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:22-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:11:3": {
+      "title": "Thursday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 24:27-27; Ac 25:1-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:35-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:11:4": {
+      "title": "Friday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 25:13-14; Ac 25:22-27",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:42-48",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:11:5": {
+      "title": "Saturday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 26:1-2; Ac 26:6-10; Ac 26:12-19",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:49-53",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:12": {
+      "title": "Twelfth Sunday of Pentecost: The Canaanite Women",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 3:1-13",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 15:21-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:12:0": {
+      "title": "Monday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 27:1-4; Ac 27:8-8; Ac 27:14-15; Ac 27:18-21; Ac 27:22-26",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:54-59",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:12:2": {
+      "title": "Wednesday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 28:1-10",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:6-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:12:3": {
+      "title": "Thursday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 28:11-15",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:10-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:12:5": {
+      "title": "Saturday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 28:23-31",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:22-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:13": {
+      "title": "Thirteenth Sunday of Pentecost: Parable of the Sower",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 3:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 8:1-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:0": {
+      "title": "Monday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 1:1-10",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:31-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:1": {
+      "title": "Tuesday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 2:1-11",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 14:1-6",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:2": {
+      "title": "Wednesday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 2:12-20",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 14:7-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:4": {
+      "title": "Friday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 3:1-10",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 14:16-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:5": {
+      "title": "Saturday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 3:11-22",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 14:25-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:14": {
+      "title": "Fourteenth Sunday of Pentecost: Martha and Mary",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Dt 6:4-9",
+          "book": "Book of Deuteronomy"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:1-13",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:38-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:0": {
+      "title": "Monday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 3:23-24; 1 Jn 4:1-6",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 15:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:1": {
+      "title": "Tuesday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 4:7-21",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 15:8-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:2": {
+      "title": "Wednesday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 5:1-12",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:3": {
+      "title": "Thursday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 5:13-21",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:9-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:4": {
+      "title": "Friday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Jn 1:1-13",
+          "book": "Second Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:13-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:14:5": {
+      "title": "Saturday of the Fourteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "3 Jn 1:1-15",
+          "book": "Third Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:1-4",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:15": {
+      "title": "Fifteenth Sunday of Pentecost: Repentance of a Sinful Woman",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 1:1-10",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 7:36-50",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:0": {
+      "title": "Monday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 1:1-8",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:5-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:1": {
+      "title": "Tuesday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 1:9-18",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:11-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:2": {
+      "title": "Wednesday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 1:19-27",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:20-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:5": {
+      "title": "Saturday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 3:1-12",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:16": {
+      "title": "Sixteenth Sunday of Pentecost: Parable of the Pharisee and the Tax Collector",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 8:18-27",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:9-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:0": {
+      "title": "Monday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 3:13-18",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:15-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:1": {
+      "title": "Tuesday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 4:1-10",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:18-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:2": {
+      "title": "Wednesday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 4:11-17",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:24-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:3": {
+      "title": "Thursday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 5:1-6",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:31-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:5": {
+      "title": "Saturday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 5:13-20",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 19:41-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:17:1": {
+      "title": "Tuesday of the Seventeenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 1:18-20; 1 Tm 2:1-7",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 13:31-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:17:2": {
+      "title": "Wednesday of the Seventeenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 2:8-15",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:12-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:17:3": {
+      "title": "Thursday of the Seventeenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 3:1-13",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 22:35-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:17:4": {
+      "title": "Friday of the Seventeenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 3:14-16; 1 Tm 4:1-5",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 6:31-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:sunday:1": {
+      "title": "First Sunday after Holy Cross",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Dt 17:14-20",
+          "book": "Book of Deuteronomy"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Tm 2:1-10",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 10:35-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:0": {
+      "title": "Monday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 1:1-8",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 8:34-38; Mc 9:1-1",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:1": {
+      "title": "Tuesday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 1:9-20",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 9:33-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:2": {
+      "title": "Wednesday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 2:1-7",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 9:38-50",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:3": {
+      "title": "Thursday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 2:8-11",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 10:17-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:4": {
+      "title": "Friday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 2:12-17",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 10:28-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:1:5": {
+      "title": "Saturday of the first week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 2:18-29",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 20:1-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:sunday:2": {
+      "title": "Second Sunday after the Holy Cross",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jl 2:1-1; Jl 2:10-13; Jl 2:15-16",
+          "book": "Book of Joel"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Co 15:19-34",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 24:1-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:0": {
+      "title": "Monday of the Second week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 3:1-6",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:16-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:1": {
+      "title": "Tuesday of the Second week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 3:7-13",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:20-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:2": {
+      "title": "Wednesday of the Third Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 3:14-22",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:29-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:3": {
+      "title": "Thursday of the Third Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 4:1-11",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:33-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:4": {
+      "title": "Friday of the Third Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 5:1-10",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:38-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:2:5": {
+      "title": "Saturday of the Third Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 6:9-17",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:43-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:sunday:3": {
+      "title": "Third Sunday of The Cross: False Messiahs and Coming of the Son of Man",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Dn 7:9-14",
+          "book": "Book of Daniel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ph 3:17-21; Ph 4:1-1",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 24:23-31",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:3:0": {
+      "title": "Monday of the third week after the Holy Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 7:9-17",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 24:32-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:3:1": {
+      "title": "Tuesday of the Fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 10:1-11",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 6:20-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:3:2": {
+      "title": "Wednesday of the Fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 11:1-12",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 5:33-39",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:3:3": {
+      "title": "Thursday of the Fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 12:1-12",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 21:34-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:3:4": {
+      "title": "Friday of the Fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 13:1-1; Ap 13:2-4; Ap 13:6-7; Ap 13:11-12; Ap 13:15-18",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:17-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "cross:weekday:3:5": {
+      "title": "Saturday of the Fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 14:1-8; Ap 14:13-13",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:24-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "cross:sunday:4": {
+      "title": "Fourth Sunday of The Cross: Faithful and Wise Slave",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Gn 41:38-44",
+          "book": "Book of Genesis"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Th 5:1-11",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 24:45-51",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:4:0": {
+      "title": "Monday of the Fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 15:1-8",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:20-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "cross:weekday:4:1": {
+      "title": "Tuesday of the Fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 18:1-8",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 16:20-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "cross:weekday:4:3": {
+      "title": "Thursday of the Fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 21:1-12; Ap 21:14-14",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:6-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:4:4": {
+      "title": "Friday of the Fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 21:22-27; Ap 22:1-5",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 15:3-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:4:5": {
+      "title": "Saturday of the Fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 22:16-21",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 15:8-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:sunday:5": {
+      "title": "Fifth Sunday of The Cross: Parable of the Ten Bridesmaids",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ct 5:2-8",
+          "book": "Song of Songs"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ph 2:12-18",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:1-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:5:0": {
+      "title": "Monday of the Sixth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:1-9",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:5:2": {
+      "title": "Wednesday of the Sixth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:26-31",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 19:11-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:5:3": {
+      "title": "Thursday of the Sixth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 3:10-23",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 4:21-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "cross:weekday:5:5": {
+      "title": "Saturday of the Sixth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:14-21",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 22:1-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:sunday:6": {
+      "title": "Sixth Sunday of The Cross: Parable of the Talents",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Pr 6:6-11",
+          "book": "Book of Proverbs"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ga 6:1-10",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:14-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:0": {
+      "title": "Monday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 6:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:1-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:1": {
+      "title": "Tuesday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 6:12-20",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:10-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:2": {
+      "title": "Wednesday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 7:1-3; 1 Co 7:8-14; 1 Co 7:17-17; 1 Co 7:24-24",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:18-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:3": {
+      "title": "Thursday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 7:25-35",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:24-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:4": {
+      "title": "Friday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 9:13-18",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:31-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:6:5": {
+      "title": "Saturday of the Seventh Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 9:19-27",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:36-43",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:sunday:7": {
+      "title": "Seventh Sunday of The Cross: Judgment of the Nations",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jb 29:1-3; Jb 29:12-16",
+          "book": "Book of Job"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 12:9-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:31-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:7:0": {
+      "title": "Monday of the Eighth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 10:1-13",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:44-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:7:1": {
+      "title": "Tuesday of the Eighth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 10:14-24",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:47-53",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:7:2": {
+      "title": "Wednesday of the Eighth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:23-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:7:3": {
+      "title": "Thursday of the Eighth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:12-27",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 22:15-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "cross:weekday:7:5": {
+      "title": "Saturday of the Eighth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 14:1-5; 1 Co 14:13-14; 1 Co 14:20-20; 1 Co 14:26-26",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 21:33-46",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:sunday:consecration": {
+      "title": "Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 54:1-1; Is 54:3-3; Is 54:5-8; Is 54:10-10",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "He 9:1-12",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:13-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:0": {
+      "title": "Monday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 10:11-18",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 17:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:1": {
+      "title": "Tuesday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 10:19-25",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 17:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:2": {
+      "title": "Wednesday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 10:26-31",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 17:14-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:3": {
+      "title": "Thursday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 10:32-39",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 17:20-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:4": {
+      "title": "Friday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 5:12-16",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 17:24-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:consecration:5": {
+      "title": "Saturday after the Sunday of the Consecration of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 5:17-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:15-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:sunday:renewal": {
+      "title": "Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "2 M 10:1-6; 2 M 10:7-7; 2 M 10:8-8",
+          "book": ""
+        },
+        {
+          "type": "psalm",
+          "reference": "He 9:11-15",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:22-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:0": {
+      "title": "Monday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 8:1-6",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:1-6",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:1": {
+      "title": "Tuesday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 8:7-13",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:7-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:2": {
+      "title": "Wednesday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 9:15-23",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:11-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:4": {
+      "title": "Friday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 10:1-10",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 2:18-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "announcement:sunday:zechariah": {
+      "title": "Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Gn 17:15-22",
+          "book": "Book of Genesis"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 4:13-25",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:1-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:0": {
+      "title": "Monday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 4:1-12",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:31-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:1": {
+      "title": "Tuesday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 2:1-8",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:13-40",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:2": {
+      "title": "Wednesday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 2:9-16",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:41-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:4": {
+      "title": "Friday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 3:1-12",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:51-55",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:5": {
+      "title": "Saturday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 3:21-31",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:56-59",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:sunday:virgin": {
+      "title": "Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "2 S 7:8-10; 2 S 7:11-12; 2 S 7:13-17",
+          "book": "2nd book of Samuel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ga 3:15-22",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:26-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:0": {
+      "title": "Monday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 3:1-6",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:27-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:1": {
+      "title": "Tuesday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 3:7-14",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:25-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:2": {
+      "title": "Wednesday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 3:23-29",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:54-58",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:3": {
+      "title": "Thursday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 4:1-7",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:46-50",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:4": {
+      "title": "Friday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 4:8-12",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 6:40-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:sunday:visitation": {
+      "title": "Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "2 S 6:9-15; 2 S 6:17-17; 2 S 6:18-18",
+          "book": "2nd book of Samuel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ep 1:1-14",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:39-45",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:0": {
+      "title": "Monday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 1:15-23",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:46-56",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:1": {
+      "title": "Tuesday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:1-10",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:38-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:3": {
+      "title": "Thursday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:17-22",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 4:39-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:4": {
+      "title": "Friday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 3:14-21",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 7:24-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:5": {
+      "title": "Saturday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 4:1-7",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 5:27-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:sunday:john": {
+      "title": "Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "1 S 1:9-11; 1 S 1:19-22",
+          "book": "1st book of Samuel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ga 4:21-31; Ga 5:1-1",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:57-66",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:john:0": {
+      "title": "Monday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:1-5",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:67-80",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:john:1": {
+      "title": "Tuesday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:6-13",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:11-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:john:2": {
+      "title": "Wednesday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:14-18",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 17:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:john:3": {
+      "title": "Thursday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:19-29",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 21:23-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:john:4": {
+      "title": "Friday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:30-33",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:16-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:sunday:joseph": {
+      "title": "Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 7:10-15",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ep 3:1-13",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 1:18-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:0": {
+      "title": "Monday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 10:14-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:1-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:1": {
+      "title": "Tuesday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 11:1-12",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:11-18",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:2": {
+      "title": "Wednesday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 11:13-24",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:25-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:3": {
+      "title": "Thursday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 11:25-36",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:5": {
+      "title": "Saturday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 12:9-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:45-53",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:sunday:genealogy": {
+      "title": "Genealogy Sunday",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 11:1-4; Is 11:6-9",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 1:1-12",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 1:1-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "announcement:weekday:genealogy:0": {
+      "title": "Monday after Genealogy Sunday",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 11:1-6",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:1-11",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:genealogy:1": {
+      "title": "Tuesday after Genealogy Sunday",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 11:7-10",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:12-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "christmas:incarnated_logos": {
+      "title": "Incarnated Logos",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Jr 23:5-8",
+          "book": "Book of Jeremiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Col 1:9-20",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:1-18",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "christmas:epiphany_day:2": {
+      "title": "Second day after the Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 2:1-7",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 3:13-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "christmas:epiphany_day:3": {
+      "title": "Third day after the Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 5:2-15",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:31-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "christmas:epiphany_day:4": {
+      "title": "Fourth day after the Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 5:16-26",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:39-47",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "christmas:epiphany_day:5": {
+      "title": "Fifth day after the Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 6:1-10",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 3:7-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "epiphany:weekday:2:0": {
+      "title": "Monday of the Second Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 1:1-11",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:43-51",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:2": {
+      "title": "Wednesday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 6:1-13",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 9:13-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:3:5": {
+      "title": "Saturday of the Third Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 7:11-16",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 19:38-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:4:1": {
+      "title": "Tuesday of the Fourth Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 7:14-25",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 4:39-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:4:2": {
+      "title": "Wednesday of the Fourth Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 8:4-13",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 9:51-56",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "epiphany:weekday:4:3": {
+      "title": "Thursday of the Fourth Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 8:14-25",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:11-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "epiphany:weekday:4:4": {
+      "title": "Friday of the Fourth Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 3:1-6",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:37-39",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "epiphany:weekday:4:5": {
+      "title": "Saturday of the Fourth Week of Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 3:7-14",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 19:28-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "prelent:weekday:priests:3": {
+      "title": "Thursday after the Sunday of the Priests",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 3:10-17",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:7-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "lent:weekday:3:5": {
+      "title": "Saturday of the Third Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 3:1-9",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:1-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "lent:weekday:6:1": {
+      "title": "Tuesday of the Sixth Week of Great Lent",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 8:12-18",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:1-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "holyweek:passion:0": {
+      "title": "Monday of Passion week",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 6:1-9",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 21:17-27",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:4:5": {
+      "title": "Saturday of the Fourth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 5:12-28",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 14:22-33",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "resurrection:weekday:5:1": {
+      "title": "Tuesday of the Fifth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 1:12-20",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:35-42",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:6:2": {
+      "title": "Wednesday of the Sixth Week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 4:1-7",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 11:32-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "resurrection:weekday:7:2": {
+      "title": "Wednesday of the Seventh week of the Resurrection",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 4:25-32",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:4:1": {
+      "title": "Tuesday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:51-60; Ac 8:1-1",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:6-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:4:3": {
+      "title": "Thursday of the Fourth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 8:9-9; Ac 8:13-25",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:15-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:5:2": {
+      "title": "Wednesday of the Fifth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 10:1-10; Ac 10:19-23",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:21-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:0": {
+      "title": "Monday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 12:1-11",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 15:1-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:2": {
+      "title": "Wednesday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 12:25-25; Ac 13:1-12",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 15:21-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:6:5": {
+      "title": "Saturday of the Sixth Week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 13:44-52",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:sunday:7": {
+      "title": "Seventh Sunday of Pentecost: Sending of the Seventy-two",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Nb 11:16-17; Nb 11:24-29",
+          "book": "Book of Numbers"
+        },
+        {
+          "type": "psalm",
+          "reference": "2 Co 3:1-6",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:8:2": {
+      "title": "Wednesday of the Eighth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 16:25-34",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:10:1": {
+      "title": "Tuesday of the Tenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 21:15-26",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:16-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:11:2": {
+      "title": "Wednesday of the Eleventh week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 24:1-2; Ac 24:5-6; Ac 24:9-13; Ac 24:17-21",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:32-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:12:1": {
+      "title": "Tuesday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 27:27-27; Ac 27:33-37; Ac 27:39-44",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:1-5",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:13:3": {
+      "title": "Thursday of the Thirteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 2:21-29",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 14:12-15",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:3": {
+      "title": "Fourth day after the Exalation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 P 3:10-18",
+          "book": "second Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 8:31-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "pentecost:weekday:15:4": {
+      "title": "Fifth day after the Exalation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jude 1:1-7",
+          "book": "Letter of Jude"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 18:33-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "cross:weekday:4:2": {
+      "title": "Wednesday of the fourth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 19:1-2; Ap 19:5-9; Ap 19:11-13; Ap 19:16-16",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:16-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:5:1": {
+      "title": "Tuesday of the fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:10-17",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 18:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "cross:weekday:5:4": {
+      "title": "Friday of the fifth Week of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:1-13",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 4:26-29",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:3": {
+      "title": "Thursday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 9:24-28",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 10:17-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:renewal:5": {
+      "title": "Saturday after the Sunday of the Renewal of the Church",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 3:1-6",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 1:21-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ]
+    },
+    "announcement:weekday:zechariah:3": {
+      "title": "Thursday after the Sunday of the Announcement to Zechariah",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 2:17-29",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:46-50",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:virgin:5": {
+      "title": "Saturday after the Sunday of the Announcement to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 4:13-20",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:21-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:visitation:2": {
+      "title": "Wednesday after the Sunday of the Visitation to Elizabeth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:11-16",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 19:1-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "announcement:weekday:john:5": {
+      "title": "Saturday after the Sunday of the Birth of St John the Baptizer",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 10:1-13",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 5:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:joseph:4": {
+      "title": "Friday after the Sunday of the Revelation to St Joseph",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 12:1-8",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 7:37-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "announcement:weekday:genealogy:2": {
+      "title": "Wednesday after Genealogy Sunday",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 11:11-16",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:21-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "pentecost:weekday:9:5": {
+      "title": "Saturday of the Ninth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 20:17-24; Ac 20:28-28; Ac 20:32-32; Ac 20:35-35",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ]
+    },
+    "pentecost:weekday:12:4": {
+      "title": "Friday of the Twelfth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 28:16-22",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 13:18-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:16:4": {
+      "title": "Friday of the Sixteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 5:7-12",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 19:11-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:sunday:17": {
+      "title": "Seventeenth Sunday of Pentecost: Parable pf the Good Samaritan",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Mi 6:6-9",
+          "book": "Book of Micah"
+        },
+        {
+          "type": "psalm",
+          "reference": "Rm 13:8-14",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:25-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:17:5": {
+      "title": "Fifth day after the Exalation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jude 1:1-7",
+          "book": "Letter of Jude"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 18:33-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    }
+  },
+  "sanctoral": {
+    "01-05": {
+      "title": "Vigil of the Glorious Epiphany",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 5:1-11",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 3:1-6",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-06": {
+      "title": "Feast of the Glorious Epiphany",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ez 36:22-28",
+          "book": "Book of Ezekiel"
+        },
+        {
+          "type": "psalm",
+          "reference": "Tt 2:11-15; Tt 3:1-7",
+          "book": "Letter to Titus"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 3:15-22",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-07": {
+      "title": "Praises to John the Baptist",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 1:24-29",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 7:18-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-16": {
+      "title": "Feast in Honor of St Peter in Chains",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 1:3-7",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:24-28",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-25": {
+      "title": "Feast of the Conversion of St Paul, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 1:11-17",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 20:1-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-28": {
+      "title": "Feast of St Ephrem the Syriani, Doctor of the Church, Confessor",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 13:7-17",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:1-8",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "02-02": {
+      "title": "Feast of the Presentation of Christ in Temple",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:30-33; Rm 10:1-4",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:22-35",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "02-03": {
+      "title": "Feast of Sts Simon the Venerable and Anna the Prophetess",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 1:8-14",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:36-41",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "02-09": {
+      "title": "Feast of St Maron, Confessor",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Tm 3:10-17",
+          "book": "Second Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:23-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "01-01": {
+      "title": "Feast of the Circumcision of the Lord Jesus",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Gn 21:1-5",
+          "book": "Book of Genesis"
+        },
+        {
+          "type": "psalm",
+          "reference": "Ep 2:11-22",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:22-24",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "01-15": {
+      "title": "Feast of Our Lady of the Sowing",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 1:9-17",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:6-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "02-19": {
+      "title": "Feast of the 500 Martyrs of Tyre, Martyrs",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 2:6-14",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 10:16-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "03-02": {
+      "title": "Feast of St John Maron, C",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ph 1:21-30",
+          "book": "Letter to the Philippians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:13-17",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "03-19": {
+      "title": "Feast of St Joseph the Virgin, the Spouse of Mary, C",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 3:1-13",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 1:8-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "03-25": {
+      "title": "Feast of the Annunciation to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 3:15-22",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:26-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "04-25": {
+      "title": "Feast of St Mark, Evangelist and Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 4:5-10",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "04-27": {
+      "title": "Feast of St Simon Brother of the Lord, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 4:10-16",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 6:12-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "04-30": {
+      "title": "Feast of St James son of Zebedee, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:9-16",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 10:32-41",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "05-08": {
+      "title": "Feast of St John, Evangelist and Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:26-31",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 21:20-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "05-15": {
+      "title": "Feast of Our Lady of the Harvest",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 7:1-7",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 3:31-35; Mc 4:1-9",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-11": {
+      "title": "Feast of St Bartholomew of the 12, Ap",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:28-31; 1 Co 13:1-7",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 6:12-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-13": {
+      "title": "Feast of Saint Aquiline of Byblos, martyr",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:9-16",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:35-44",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-19": {
+      "title": "Feast of St Jude or Thaddus or Laba, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 2:11-21",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:15-26",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-24": {
+      "title": "Feast of the Birth of St John Baptist",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ga 4:21-31; Ga 5:1-1",
+          "book": "Letter to the Galatians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:57-66",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-26": {
+      "title": "Feast of Blessed Abouna Jacob Haddad the Capuchin",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 2:14-23",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:25-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-29": {
+      "title": "Feast of SSt Peter and Paul, Ap",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 11:21-30",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 16:13-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "06-30": {
+      "title": "Feast of 12 Apostles",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 10:12-21",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 9:36-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "07-10": {
+      "title": "Feast of three Blessed Maronite Massabki Martyrs",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:1-9",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:6-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "07-20": {
+      "title": "Feast of St Elias the Prophet",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 11:1-8",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 4:22-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "07-23": {
+      "title": "Feast of St Sharbel, C",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 8:28-39",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 13:36-43",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "07-31": {
+      "title": "Feast of the Martyrdom of 350 Martyrs, Disciples of St Maron",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 16:17-20",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:49-54",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "08-06": {
+      "title": "Feast of the Transfiguration of the Lord",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 3:7-17",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 9:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "08-09": {
+      "title": "Feast of St Matthias, Ap",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:9-17",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 11:25-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "08-15": {
+      "title": "Feast of the Assumption of the Virgin Mary (Our Lady of the Vineyard)",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 12:1-11",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 12:22-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "08-29": {
+      "title": "Feast of the Beheading of John the Baptist, M",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 11:32-40",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 6:14-29",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "08-30": {
+      "title": "Feast of Blessed Estephan Nehme, Confessor",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Jn 5:13-21",
+          "book": "First Letter of John"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 16:9-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "09-06": {
+      "title": "Feast of St Michael the Archangel",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Col 2:16-23",
+          "book": "Letter to the Colossians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 18:1-5; Mt 18:10-10",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "09-08": {
+      "title": "Nativity of the Blessed Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 4:1-6",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 8:16-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "09-09": {
+      "title": "Feast of SSt Joachim and Anne, Parents of the Virgin Mary, C",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 5:22-32",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 3:23-38",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "09-14": {
+      "title": "The Exaltation of the Glorious Cross",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Ex 17:8-15",
+          "book": "Book of Exodus"
+        },
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:18-25",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:20-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": true
+    },
+    "10-09": {
+      "title": "Feast of St James Brother of the Lord, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 5:20-21; 2 Co 6:1-7",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 6:12-19",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "10-18": {
+      "title": "Feast of St Luke, Evangelist",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 8:16-22",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 10:1-7",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "11-01": {
+      "title": "Feast of All Saints",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 12:18-24",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 5:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "11-14": {
+      "title": "Feast of St Philip, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Th 2:13-17; 2 Th 3:1-5",
+          "book": "Second Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 14:8-14",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "11-16": {
+      "title": "Feast of St Matthew the Evangelist, Ap",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Tm 1:12-19",
+          "book": "First Letter to Timothy"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 9:9-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "11-21": {
+      "title": "Feast of the Presentation of the Virgin Mary in the Temple",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 2:14-18; He 3:1-6",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:27-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "11-30": {
+      "title": "Feast of St Andrew, Apostle",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 1:26-31",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 4:18-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-04": {
+      "title": "Feast of St Barbara of Baalbeck, Martyr",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 7:36-40",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:1-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-14": {
+      "title": "Feast of St Nehemtallah of Hardeen, Confessor",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 12:1-8",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 4:18-25",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-20": {
+      "title": "Feast of St Ignatius of Antioch, Martyr",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 8:31-39",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:23-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-25": {
+      "title": "Feast of the Glorious Birth of Our Lord",
+      "readings": [
+        {
+          "type": "reading",
+          "reference": "Is 8:23-23; Is 9:1-5",
+          "book": "Book of Isaiah"
+        },
+        {
+          "type": "psalm",
+          "reference": "He 1:1-12",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 2:1-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-26": {
+      "title": "Praises to the Virgin Mary",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 1:3-14",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 1:46-55",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-27": {
+      "title": "Martyrdom of St Stephen the First Martyr",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 Co 11:1-9",
+          "book": "Second Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 23:29-39; Mt 24:1-2",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-28": {
+      "title": "The Adoration of the Magi",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 21:9-10; Ap 21:21-27",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 2:1-12",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-30": {
+      "title": "Feast of the return of the Holy Family from Egypt",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:2-2; Ac 7:30-37",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 2:19-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-31": {
+      "title": "Feast of the Holy Family's arrival in Nazareth",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ac 7:35-37",
+          "book": "Acts of the Apostles"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 2:22-23",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "02-20": {
+      "title": "Feast of Saint James of Cyr, the hermit",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ep 6:10-18",
+          "book": "Letter to the Ephesians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 12:32-34",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "03-26": {
+      "title": "Feast of St Gabriel the Archangel",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Ap 12:7-12",
+          "book": "Book of Revelation"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 1:47-51",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "05-09": {
+      "title": "Feast of St Isaiah the Prophet",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Rm 9:26-33",
+          "book": "Letter to the Romans"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 4:14-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "06-02": {
+      "title": "Feast of the Four Evangelists, Apostles",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Th 2:1-8",
+          "book": "First Letter to the Thessalonians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mc 16:15-20",
+          "book": "Holy Gospel of Jesus Christ according to Saint Mark"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "07-17": {
+      "title": "Feast of Saint Marina of Qannoubine",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 4:1-8",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 25:1-13",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "07-24": {
+      "title": "Feast of Saint Christina of Tyr",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "1 Co 7:36-40",
+          "book": "First Letter to the Corinthians"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 15:9-16",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-08": {
+      "title": "Feast of the Immaculate Conception",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 7:11-17",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 11:27-32",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ],
+      "beatsSunday": false
+    },
+    "12-29": {
+      "title": "The Flight into Egypt and the Killing of the Holy Innocents, Martyrs",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "He 11:23-31",
+          "book": "Letter to the Hebrews"
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt 2:13-18",
+          "book": "Holy Gospel of Jesus Christ according to Saint Matthew"
+        }
+      ],
+      "beatsSunday": false
+    }
+  }
+}

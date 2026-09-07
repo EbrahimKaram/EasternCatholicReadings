@@ -1,5 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue';
+import { fetchScriptureText } from '../services/bibleService';
 
 const props = defineProps({
   liturgicTitle: { type: String, default: '' },
@@ -14,10 +15,24 @@ const dateDisplay = computed(() => {
   });
 });
 
-// Expand/collapse individual readings
 const expanded = ref({});
-const toggle = (idx) => {
+const loadedText = ref({});
+const loadingText = ref({});
+
+const toggle = async (idx) => {
   expanded.value[idx] = !expanded.value[idx];
+  if (!expanded.value[idx] || loadedText.value[idx] || loadingText.value[idx]) return;
+
+  const reading = props.readings[idx];
+  if (reading?.text) {
+    loadedText.value[idx] = reading.text;
+    return;
+  }
+  if (!reading?.reference) return;
+
+  loadingText.value[idx] = true;
+  loadedText.value[idx] = await fetchScriptureText(reading.reference);
+  loadingText.value[idx] = false;
 };
 
 const READING_LABELS = {
@@ -99,13 +114,18 @@ const formatText = (text) => text?.trim().replace(/\n+/g, '\n').split('\n') ?? [
           class="mt-3 p-4 rounded text-stone-700 dark:text-stone-300 text-sm leading-relaxed"
           :class="readingStyle(reading.type).box"
         >
-          <p
-            v-for="(verse, vi) in formatText(reading.text)"
-            :key="vi"
-            :class="{ 'mt-2': vi > 0 }"
-          >
-            {{ verse }}
-          </p>
+          <p v-if="loadingText[idx]" class="italic text-stone-500">Loading passage…</p>
+          <div v-else-if="loadedText[idx]" v-html="loadedText[idx]"></div>
+          <template v-else-if="reading.text">
+            <p
+              v-for="(verse, vi) in formatText(reading.text)"
+              :key="vi"
+              :class="{ 'mt-2': vi > 0 }"
+            >
+              {{ verse }}
+            </p>
+          </template>
+          <p v-else class="italic text-stone-500">Passage text is unavailable.</p>
         </div>
       </div>
     </div>

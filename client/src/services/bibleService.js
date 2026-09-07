@@ -1,6 +1,88 @@
 const BASE_URL = 'https://bible-api.com';
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
+const MARONITE_BOOK_ALIASES = [
+  [/\b1\s*Co\b/gi, '1 Corinthians'],
+  [/\b2\s*Co\b/gi, '2 Corinthians'],
+  [/\b1\s*Th\b/gi, '1 Thessalonians'],
+  [/\b2\s*Th\b/gi, '2 Thessalonians'],
+  [/\b1\s*Tm\b/gi, '1 Timothy'],
+  [/\b2\s*Tm\b/gi, '2 Timothy'],
+  [/\b1\s*S\b/gi, '1 Samuel'],
+  [/\b2\s*S\b/gi, '2 Samuel'],
+  [/\b1\s*R\b/gi, '1 Kings'],
+  [/\b2\s*R\b/gi, '2 Kings'],
+  [/\b1\s*Ch\b/gi, '1 Chronicles'],
+  [/\b2\s*Ch\b/gi, '2 Chronicles'],
+  [/\b1\s*M\b/gi, '1 Maccabees'],
+  [/\b2\s*M\b/gi, '2 Maccabees'],
+  [/\bAc\b/gi, 'Acts'],
+  [/\bRm\b/gi, 'Romans'],
+  [/\bGa\b/gi, 'Galatians'],
+  [/\bEp\b/gi, 'Ephesians'],
+  [/\bPh\b/gi, 'Philippians'],
+  [/\bCol\b/gi, 'Colossians'],
+  [/\bTt\b/gi, 'Titus'],
+  [/\bHe\b/gi, 'Hebrews'],
+  [/\bJc\b/gi, 'James'],
+  [/\b1\s*P\b/gi, '1 Peter'],
+  [/\b2\s*P\b/gi, '2 Peter'],
+  [/\b1\s*Jn\b/gi, '1 John'],
+  [/\b2\s*Jn\b/gi, '2 John'],
+  [/\b3\s*Jn\b/gi, '3 John'],
+  [/\bAp\b/gi, 'Revelation'],
+  [/\bMt\b/gi, 'Matthew'],
+  [/\bMc\b/gi, 'Mark'],
+  [/\bLc\b/gi, 'Luke'],
+  [/\bJn\b/gi, 'John'],
+  [/\bGn\b/gi, 'Genesis'],
+  [/\bEx\b/gi, 'Exodus'],
+  [/\bLv\b/gi, 'Leviticus'],
+  [/\bNb\b/gi, 'Numbers'],
+  [/\bDt\b/gi, 'Deuteronomy'],
+  [/\bJos\b/gi, 'Joshua'],
+  [/\bJg\b/gi, 'Judges'],
+  [/\bRt\b/gi, 'Ruth'],
+  [/\bJb\b/gi, 'Job'],
+  [/\bPs\b/gi, 'Psalm'],
+  [/\bPr\b/gi, 'Proverbs'],
+  [/\bQo\b/gi, 'Ecclesiastes'],
+  [/\bCt\b/gi, 'Song of Solomon'],
+  [/\bSg\b/gi, 'Song of Solomon'],
+  [/\bWs\b/gi, 'Wisdom'],
+  [/\bSi\b/gi, 'Sirach'],
+  [/\bIs\b/gi, 'Isaiah'],
+  [/\bJr\b/gi, 'Jeremiah'],
+  [/\bLm\b/gi, 'Lamentations'],
+  [/\bBa\b/gi, 'Baruch'],
+  [/\bEz\b/gi, 'Ezekiel'],
+  [/\bDn\b/gi, 'Daniel'],
+  [/\bHo\b/gi, 'Hosea'],
+  [/\bJl\b/gi, 'Joel'],
+  [/\bAm\b/gi, 'Amos'],
+  [/\bOb\b/gi, 'Obadiah'],
+  [/\bJon\b/gi, 'Jonah'],
+  [/\bMi\b/gi, 'Micah'],
+  [/\bNa\b/gi, 'Nahum'],
+  [/\bHa\b/gi, 'Habakkuk'],
+  [/\bSo\b/gi, 'Zephaniah'],
+  [/\bHg\b/gi, 'Haggai'],
+  [/\bZa\b/gi, 'Zechariah'],
+  [/\bMl\b/gi, 'Malachi'],
+  [/\bMa\b/gi, 'Malachi'],
+  [/\bTb\b/gi, 'Tobit'],
+  [/\bJdt\b/gi, 'Judith'],
+  [/\bEst\b/gi, 'Esther'],
+];
+
+function expandMaroniteBookCodes(reference) {
+  let text = reference;
+  for (const [pattern, name] of MARONITE_BOOK_ALIASES) {
+    text = text.replace(pattern, name);
+  }
+  return text;
+}
+
 function isFreshCacheEntry(entry) {
   if (!entry || typeof entry !== 'object') return false;
   if (typeof entry.cachedAt !== 'number') return false;
@@ -11,7 +93,8 @@ export async function fetchScriptureText(reference) {
   if (!reference) return null;
 
   // 1. Clean the reference
-  const cleanRef = reference
+  const cleanRef = expandMaroniteBookCodes(reference)
+    .replace(/#/g, '; ')
     // Handle prefixes like "2, Gospel Lk" or simple "Epistle "
     .replace(/^(?:[\d\s,]*)(Epistle|Gospel)\s*/i, '')
     // Clean typical suffix garbage (e.g. annotations like "Hippolytus, martyr")
