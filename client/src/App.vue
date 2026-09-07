@@ -30,7 +30,7 @@
         </p>
         <p v-if="rite === 'byzantine'" class="text-stone-600 dark:text-stone-400 italic">Scripture readings for the Romanian Byzantine Liturgies from the <a href="https://www.stgeorgeoh.org/calendar" target="_blank" rel="noopener noreferrer" class="underline">Saint George Cathedral Calendar.</a>
           We are specifically following the readings as outlined by the Romanian <a href="https://romaniancatholic.org/" target="_blank" rel="noopener noreferrer" class="underline">Catholic Diocese Eparchy of St. George in Canton</a>.</p>
-        <p v-else class="text-stone-600 dark:text-stone-400 italic">Daily Maronite liturgical readings. Gospel text via <a href="https://dailygospel.org/" target="_blank" rel="noopener noreferrer" class="underline">Evangelizo</a>.</p>
+        <p v-else class="text-stone-600 dark:text-stone-400 italic">Daily Maronite liturgical readings computed from the three-anchor calendar. Scripture text: Douay-Rheims via bible-api.com. External check: <a href="https://dailygospel.org/" target="_blank" rel="noopener noreferrer" class="underline">dailygospel.org</a>.</p>
 
         <!-- Rite toggle -->
         <div class="inline-flex mt-4 rounded-lg border border-stone-300 dark:border-stone-600 overflow-hidden shadow-sm">
