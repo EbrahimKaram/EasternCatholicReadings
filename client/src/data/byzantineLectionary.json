@@ -1,0 +1,3784 @@
+{
+  "meta": {
+    "source": "byzantine-calendars/readings.csv",
+    "model": "pascha-pentecost-two-anchor",
+    "years": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "temporal": {
+    "afterPentecost:sunday:1": {
+      "title": "1st SUNDAY AFTER PENTECOST: Sunday of All Saints",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 11: 33-12: 2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 10: 32-35; 37-38; 19: 27-30",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:10": {
+      "title": "10th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 4: 9-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 17: 14-23",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:11": {
+      "title": "11th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 9: 2-12",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 18: 23-35",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:12": {
+      "title": "12th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 15:1-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 19:16-26",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:13": {
+      "title": "13th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 16: 13-24",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 21: 33-42",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:14": {
+      "title": "14th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Cor. 1: 21-23, 2:1-4",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 22: 2-14",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:15": {
+      "title": "Indiction; beginning of the Church year 15th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Cor. 4: 6-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 22:35-46",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:16": {
+      "title": "SUNDAY BEFORE THE EXALTATION OF THE CROSS",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal. 6:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 3:13-17",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:17": {
+      "title": "SUNDAY AFTER THE EXALTATION OF THE CROSS",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal. 2: 16-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mk. 8:34-9:1",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:18": {
+      "title": "1ST SUNDAY AFTER HOLY CROSS (18th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Cor. 9: 6-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 5:1-11",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:19": {
+      "title": "2nd SUNDAY AFTER HOLY CROSS (19th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Cor. 11:31-33. 12:1-10",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 6:31-36",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:2": {
+      "title": "2nd SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 2: 10-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 4: 18-23",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:20": {
+      "title": "3rd SUNDAY AFTER HOLY CROSS (20th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal 1:11-19",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 7:11-16",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:21": {
+      "title": "4th SUNDAY AFTER HOLY CROSS. (Sunday of the Holy Fathers of the 7th Ecumenical Council)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Titus 3: 8-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 8:5-15",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:22": {
+      "title": "6th SUNDAY AFTER HOLY CROSS (22nd Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal 6:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 8: 27-39",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:23": {
+      "title": "7th SUNDAY AFTER HOLY CROSS (23rd Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 2:4-10",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 8: 41-56",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:24": {
+      "title": "5th SUNDAY AFTER HOLY CROSS (24th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 2:14-22",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 16:19-31",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:25": {
+      "title": "8th SUNDAY AFTER HOLY CROSS (25th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 4: 1-7",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 10: 25-37",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:26": {
+      "title": "9th SUNDAY AFTER HOLY CROSS (26th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 5: 8-19",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 12: 16-21",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:27": {
+      "title": "11th SUNDAY AFTER HOLY CROSS (Sunday of the Holy Ancestors)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Col 3: 4-12",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 14: 16-25",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:28": {
+      "title": "14th SUNDAY AFTER HOLY CROSS (28th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Col 1: 12-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 18: 35-42",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:29": {
+      "title": "10th SUNDAY AFTER HOLY CROSS (29th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Col 3: 12-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 13: 10-17",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:3": {
+      "title": "3rd SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 5: 1-10",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 6: 22-23",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:30": {
+      "title": "11th SUNDAY AFTER HOLY CROSS (Sunday of the Holy Ancestors)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Col 3: 4-12",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 14: 16-25",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:31": {
+      "title": "SUNDAY BEFORE NATIVITY OF OUR LORD JESUS CHRIST (Sunday of the Holy Fathers)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 11: 9-10; 17-23; 32-40",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt. 1: 1-25",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:32": {
+      "title": "Sunday after the Theophany",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 4: 7-13",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt 4:12-17",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:33": {
+      "title": "Sunday before the Theophany",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Tim 4:5-8",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mk.1:1-8",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:34": {
+      "title": "Sunday after the Theophany",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Eph. 4: 7 13",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt 4:12-17",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:35": {
+      "title": "12th Sunday after The Holy Cross (29th Sunday after Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Col. 3:4-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "2, Gospel Lk 17:12-19",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:37": {
+      "title": "†ENCOUNTER OF OUR LORD IN THE TEMPLE",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb 7:7-17",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 2:22-40",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:4": {
+      "title": "4th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 6: 18-23",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 8: 5-13",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:5": {
+      "title": "Sunday of the Holy Fathers of the First Sixth Ecumenical Councils",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Tit. 3: 8-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 5: 14-19",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:6": {
+      "title": "6TH SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 12: 6-14",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt. 9: 1-8",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:7": {
+      "title": "7th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 15: 1-7",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt. 9: 27-35",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:8": {
+      "title": "Sunday of the Holy Fathers of the First Six Ecumenical Councils",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Titus 3: 8-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 5: 14-19",
+          "book": ""
+        }
+      ]
+    },
+    "afterPentecost:sunday:9": {
+      "title": "9th SUNDAY AFTER PENTECOST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 3: 9-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 14: 22-34",
+          "book": ""
+        }
+      ]
+    },
+    "holyweek:monday": {
+      "title": "Great and Holy Monday (†) ANNUNCIATION",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 1:24-38",
+          "book": ""
+        }
+      ]
+    },
+    "holyweek:palm": {
+      "title": "Palm Sunday (Floriile)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Phil. 4: 4-9",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 12:1-18",
+          "book": ""
+        }
+      ]
+    },
+    "holyweek:thursday": {
+      "title": "GREAT AND HOLY THURSDAY Vespers with of St. Basil Reading of 12",
+      "readings": [
+        {
+          "type": "gospel",
+          "reference": "s",
+          "book": ""
+        }
+      ]
+    },
+    "lent:sunday:1": {
+      "title": "1st Sunday of Lent – Orthodoxy Sunday",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 11: 24-26",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 1:43-51",
+          "book": ""
+        }
+      ]
+    },
+    "lent:sunday:2": {
+      "title": "2nd Sunday of Lent - Gregory Palamas",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 1: 10-2:3",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mark 2:1-12",
+          "book": ""
+        }
+      ]
+    },
+    "lent:sunday:3": {
+      "title": "3rd Sunday of Lent: Veneration of the Holy Cross",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 4: 14 to 5:6",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mark 8:34-9:1",
+          "book": ""
+        }
+      ]
+    },
+    "lent:sunday:4": {
+      "title": "4th Sunday of Lent: Ven. Father John of the Ladder",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 6: 13-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mark 9:17-32",
+          "book": ""
+        }
+      ]
+    },
+    "lent:sunday:5": {
+      "title": "5th Sunday of Lent – Ven. Mother Mary of Egypt",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 9: 11-14",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mark 10:32-45",
+          "book": ""
+        }
+      ]
+    },
+    "lent:weekday:4:1": {
+      "title": "(†) ANNUNCIATION",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 1:24-38",
+          "book": ""
+        }
+      ]
+    },
+    "lent:weekday:6:2": {
+      "title": "(†) ANNUNCIATION",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 1:24-38",
+          "book": ""
+        }
+      ]
+    },
+    "lent:weekday:6:5": {
+      "title": "Lazarus Saturday Episle Heb. 12:28-29, 13:1-8. Father Stephen and Hilarion the Younger",
+      "readings": [
+        {
+          "type": "gospel",
+          "reference": "John 11:1-45 Commemoration of our H",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:ascension": {
+      "title": "(†) ASCENSION OF THE LORD",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 1:1-12",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 24:36-53",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:blind": {
+      "title": "SUNDAY OF THE MAN BORN BLIND (6th Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 16: 16-34",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 9: 1-38",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:bright:3": {
+      "title": "BRIGHT WEDNESDAY (†) Great Martyr and Trophy-Bearer, George, Patron of the Romanian Catholic Diocese",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 12:1-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John: 15:17-27, 16:1",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:fathers": {
+      "title": "FATHERS OF THE 1ST ECUMENI- CAL COUNCIL OF NICAEA (7TH Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 20: 16-18, 28-36",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 17: 1-13",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:myrrhbearers": {
+      "title": "SUNDAY OF MYRRH-BEARING WOMAN (3rd Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 6: 1-7",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mk. 15:43-16:8",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:paralytic": {
+      "title": "SUNDAY OF THE PARALYTIC (4th Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 9: 32-42",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 5:1-15",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:samaritan": {
+      "title": "SUNDAY OF THE SAMARITAN WOMAN (5th Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 11: 19-30",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 4: 5-42",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:sunday": {
+      "title": "RESURRECTION OF OUR LORD Învierea Domnului Isus Hristos Resurrection service, Matins and Liturgy. All of the Feast",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 1:1-8",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 1: 1-17",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:thomas": {
+      "title": "THOMAS SUNDAY (2nd Sunday of Easter)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 5:12-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 20:19-31",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:weekday:3:3": {
+      "title": "(†) Great Martyr and Trophy-Bearer, George, Patron of the Romanian Catholic Diocese",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 12:1-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John: 15:17-27, 16:1",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:weekday:4:1": {
+      "title": "(†) Great Martyr and Trophy- Bearer, George, Patron Saint of the Romanian Catholic Diocese",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 12:1-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 15:17-16:2",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:weekday:5:2": {
+      "title": "(†) Ss. Constantine and Helen",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 26:1,12-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 10:1-19",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:weekday:7:0": {
+      "title": "(†) BLESSED MARTYR BISHOPS",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb 7,26-28,8: 1-2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John:15:17-27; 16:1-2",
+          "book": ""
+        }
+      ]
+    },
+    "pascha:weekday:7:3": {
+      "title": "(†) Ss. Constantine and Helen",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 26:1,12-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 10:1-19",
+          "book": ""
+        }
+      ]
+    },
+    "pentecost:sunday": {
+      "title": "PENTECOST SUNDAY",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts: 2: 1-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 7: 37-8: 12",
+          "book": ""
+        }
+      ]
+    },
+    "triodion:cheesefare": {
+      "title": "Cheese-Fare Sunday (Forgiveness Sunday)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom. 13: 11-14-14: 1-4",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 6:14-21",
+          "book": ""
+        }
+      ]
+    },
+    "triodion:meatfare": {
+      "title": "Meat-Fare Sunday – Sunday of the Last Judgement",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 8: 8-13-9:1-2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 25:31-46",
+          "book": ""
+        }
+      ]
+    },
+    "triodion:prodigal": {
+      "title": "Sunday of the Prodigal Son",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor. 6: 12-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 15:11-32",
+          "book": ""
+        }
+      ]
+    },
+    "triodion:publican": {
+      "title": "Beginning of the Triodion Sunday of the Pharisee and the Publican",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Tim. 3: 10-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 18:10-14",
+          "book": ""
+        }
+      ]
+    },
+    "triodion:zacchaeus": {
+      "title": "15th Sunday after Holy Cross: Zacchaeus Sunday (32nd Sunday After Pentecost)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Tim 4:9-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 19:1-10",
+          "book": ""
+        }
+      ]
+    }
+  },
+  "sanctoral": {
+    "01-01": {
+      "title": "(†)CIRCUMCISION/ ST. BASIL",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Timothy 4:5-8",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mark 1:1-8",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "01-02": {
+      "title": "Forefeast of Theophany, St. Sylvester, Pope",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "01-03": {
+      "title": "Malachi, prophet. Gordius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "01-04": {
+      "title": "Synaxis of the 70 Apostles St. Theoctistus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-05": {
+      "title": "Vigil of Theophany. Theopemptus and Theona, martyrs. Ven. Mother Syncletica. Royal Hours, Vespers with Lit. of St. Basil and Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict fast and abstinence"
+    },
+    "01-06": {
+      "title": "(†)THEOPHANY Great",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Tim 4:5-8",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 3:13-17",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true
+    },
+    "01-07": {
+      "title": "+Synaxis of St. John the Baptist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-08": {
+      "title": "Ven. Mother Dominica. Ven. Father George",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-09": {
+      "title": "Polyeuctus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-10": {
+      "title": "Holy Fathers Gregory, Bishop of Nyssa and Dometian, Bishop of Melitene. St. Marcian, Economos of the Great Church",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-11": {
+      "title": "Ven. Father Theodosius, Founder of Monasteries",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-12": {
+      "title": "Tatiana, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-13": {
+      "title": "Ermylus & Stratonicus, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-14": {
+      "title": "Leavetaking of Theophany. Venerable Fathers martyred at Sinai and Raithu",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-15": {
+      "title": "Ven. Fathers Paul of Thebes & John the Hut- Dweller",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-16": {
+      "title": "Veneration of the Chains of the Holy and All-Praised Apostle, Peter",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-17": {
+      "title": "Ven. Father Antony the Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-18": {
+      "title": "Holy Fathers Athanasius and Cyril, Archbishops of Alexandria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-19": {
+      "title": "Ven. Father Macarius of Egypt Holy Father Arsenius, Abp. of Corcyre",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-20": {
+      "title": "Ven. Father Euthymius the Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-21": {
+      "title": "Ven. Father Maximus the Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-22": {
+      "title": "Apostle Timothy. Anastasius the Persian, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-23": {
+      "title": "Clement of Ancyra & Agathangel, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-24": {
+      "title": "Ven. Mother Xenia of Rome",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "01-25": {
+      "title": "(†) H. Father Gregory the Theologian, Abp of Constantinople Bp. martyr Bretanion of Tomis",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 7:26-8:2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John 10:9-16",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-26": {
+      "title": "Ven. Father Xenophon and others",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "01-27": {
+      "title": "(†) Translation of the relics of St. John Chrysostom",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 7:26 to 8:2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John 10:9-16",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "01-28": {
+      "title": "Eutychius of Melitene, hieromartyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "01-29": {
+      "title": "Transfer of the relics of St. Ignatius the God- Bearer",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "01-30": {
+      "title": "(†) Three Holy Hierarchs: Basil the Great, Gregory the Theologian and John Chrysostom",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 13:7-16",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt: 5:14-19 Hippolytus, martyr",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "01-31": {
+      "title": "Cyrus & John, martyrs & wonderworkers",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-01": {
+      "title": "Forefeast of the Meeting of the Lord Tryphon, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "02-02": {
+      "title": "†ENCOUNTER OF OUR LORD IN THE TEMPLE",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb 7:7-17",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 2:22-40",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "02-03": {
+      "title": "Ven. Symeon the God- Receiver and Prophetess Anna",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "02-04": {
+      "title": "Ven. Father Isidore of Pelusium",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-05": {
+      "title": "Agatha, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-06": {
+      "title": "Ven. Bucolus, Bishop of Smyrna",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-07": {
+      "title": "Aliturgical Day Ven. Parthenius, Bishop of Lampsaca. Ven. Luke of Syria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-08": {
+      "title": "Great-Martyr Theodore Stratelates. Prophet Zachariah",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-09": {
+      "title": "Aliturgical Day Nicephorus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-10": {
+      "title": "Charalampus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-11": {
+      "title": "Blaise, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-12": {
+      "title": "Holy Father Meletius, Archbishop of Antioch the Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-13": {
+      "title": "Ven. Father Martinian, hermit",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-14": {
+      "title": "Ven. Father Auxentius, ascetic. [Cyril and Methodius]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-15": {
+      "title": "Onesimus, Apostle of the 70",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-16": {
+      "title": "Presanctified Liturgy",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-17": {
+      "title": "Great-Martyr Theodore Tyro. Miracle of Koliva",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-18": {
+      "title": "Holy Father Leo, Pope of Rome",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "02-19": {
+      "title": "Holy Father Leo, Bishop of Catania",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-20": {
+      "title": "Holy Father Leo, Bishop of Catania",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-21": {
+      "title": "Presanctified Liturgy Ven. Father Timothy of Simbola. Holy Father Eustathius, Archbishop of Antioch",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-22": {
+      "title": "Finding of the relics of the Martyrs at the Eugenius Gate in Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-23": {
+      "title": "Presanctified Liturgy Holy Father Polycarp, Bishop of Smyrna",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-24": {
+      "title": "First and Second Findings of the Honored Head of St. John the Baptist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-25": {
+      "title": "Holy Father Tarasius, Archbishop of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-26": {
+      "title": "Holy Father Porphyrius of Gaza",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-27": {
+      "title": "Ven. Father Procopius the Decapolite",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-28": {
+      "title": "Presanctified Liturgy Ven. Father Basil, the Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "02-29": {
+      "title": "Ven. Cassian the Roman",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-01": {
+      "title": "Presanctified Liturgy Ven. Eudochia, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-02": {
+      "title": "Saturday of the Dead Hieromartyr Theodotus, Bishop of Cyprus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-03": {
+      "title": "Clean Monday Aliturgical day Eutropius, Cleonicus and Basiliscus, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "03-04": {
+      "title": "Ven. Gerasimus of the Jordan",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-05": {
+      "title": "Conon of Isauria, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-06": {
+      "title": "Presanctified Liturgy 42 Martyrs of Amorium",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-07": {
+      "title": "Hieromartyrs of Cherson, Basil, Ephrem, Eugenius, Capiton, Aetherius, Elpidius and Agathodorus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-08": {
+      "title": "Presanctified Liturgy Holy Father Theophylact the Confessor, Bishop of Nicomedia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-09": {
+      "title": "Saturday of the Dead 40 Martyrs of Sebastea",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-10": {
+      "title": "Codratus and his companions, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-11": {
+      "title": "Ven. Father Sophronius, Archbishop of Jerusalem",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-12": {
+      "title": "Ven. Theophan the Confessor. Holy Father Gregory the Dialogist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-13": {
+      "title": "Presanctified Liturgy Great Canon of St. Andrew of Crete with Life of St. Mary of Egypt. Translation of relics of Nicephorus, Abp. of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-14": {
+      "title": "Thursday of the Great Canon Ven. Father Benedict of Nursia. Patron of Europe Alexander of Pidna, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-15": {
+      "title": "Presanctified Liturgy Akathist Hymn Agapius, martyr and his seven companions",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-16": {
+      "title": "Saturday of the Akathist Hymn Sabinus the Egyptian, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-17": {
+      "title": "Ven. Alexis, the \"Man of God",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-18": {
+      "title": "H. Father Cyril, Archbishop of Jerusalem",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-19": {
+      "title": "Chrysanthus and Daria, martyrs [St. Joseph, Patron Saint of Canada and of the Universal Church]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-20": {
+      "title": "Presanctified Liturgy Ven. Fathers martyred at the Monastery of St. Sava in Palestine",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-21": {
+      "title": "Holy Father James of Catania",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-22": {
+      "title": "Presanctified Liturgy Priest Martyr Basil of Ancyra",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-23": {
+      "title": "Lazarus Saturday Ven. Martyr Nikon and those 199 with him",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-24": {
+      "title": "Ven. Father Zachary the Recluse",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-25": {
+      "title": "(†) ANNUNCIATION",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2:11-18",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 1:24-38",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Harti)"
+    },
+    "03-26": {
+      "title": "Leave-taking of the Feast of the Annunciation of the Mother of God. Synaxis of the Archangel Gabriel",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-27": {
+      "title": "Ven. Mother Matrona of Thessalonica",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-28": {
+      "title": "Vespers with of St. Basil Reading of 12",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "03-29": {
+      "title": "(Good Friday) Royal Hours Descent from the Cross at Vespers Burial of our Lord (Prohodul Domnului)",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Fast and Abstinence"
+    },
+    "03-30": {
+      "title": "Evening Vespers with of St. Basil",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "03-31": {
+      "title": "Ven. Hypatius, Bishop of Gangra",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "04-01": {
+      "title": "St. Mary of Egypt",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "04-02": {
+      "title": "Ven. Father Titus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-03": {
+      "title": "Ven. Nicetas, Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "04-04": {
+      "title": "Theodulus and companion, martyrs. Ven. Joseph the Hymnographer, Ven. George of Maleum",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-05": {
+      "title": "Mother of God of the Life- Giving Spring Claudius, Diodore, Victor, Victorin, Papias, Nicephorus and Serapion, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "04-06": {
+      "title": "Eutyches, Archbishop of Constantinople. Hieromartyr Irenaeus of Sirmium",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-07": {
+      "title": "Holy Father Kalliopos and Holy Father George, Bishop of Melitene",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-08": {
+      "title": "Herodion et al, Apostles among the 70",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-09": {
+      "title": "Eupsychius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-10": {
+      "title": "Terence, Pompey, Maximus, and companions, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-11": {
+      "title": "Antipas, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-12": {
+      "title": "Ven. Basil the Con fessor St. Sava of Buzău",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-13": {
+      "title": "Ven. Father Martin, confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-14": {
+      "title": "Presanctified Liturgy Great and Holy Monday Apostles among the 70, Aristarchus, Pudens and Trophimus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "04-15": {
+      "title": "Crescent, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "04-16": {
+      "title": "Agapia, Irene and Chionia, women martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Abstinence"
+    },
+    "04-17": {
+      "title": "Simeon, martyr Ven. Father Acacius of Melitene",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-18": {
+      "title": "Ven. Father John, disciple of St. George the Decapolite",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Fast and Abstinence"
+    },
+    "04-19": {
+      "title": "Paphnutius, martyr Ven. John of the Old Lavra in Palestine",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-20": {
+      "title": "Ven. Father Theodore “Trichinas” (the “Hair- Shirt Wearer”) St. Theotimus of Tomis",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-21": {
+      "title": "Hieromartyr Januarius and his companions. Theodore of Perga in Pamphilia, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-22": {
+      "title": "Ven. Father Theodore of Sykeon",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-23": {
+      "title": "(†) Great Martyr and Trophy-Bearer, George, Patron of the Romanian Catholic Diocese",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "04-24": {
+      "title": "Sabbas the Goth, martyr. Ven. Mother Elizabeth the wonderworker",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-25": {
+      "title": "Holy Apostle and Evangelist, Mark",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "04-26": {
+      "title": "Hieromartyr Basil of Amasia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-27": {
+      "title": "Simeon, relative of the Lord, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-28": {
+      "title": "Apostles among the 70, Jason and Sosipater. Dada and others, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "04-29": {
+      "title": "Martyrs of Cyzicus. Ven. Father Memnon, wonderworker",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "04-30": {
+      "title": "Apostle James, brother of St. John the Theologian",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-01": {
+      "title": "Prophet Jeremiah [St. Joseph the Worker]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-02": {
+      "title": "Founding of Constantinople. H. Father Athanasius the Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-03": {
+      "title": "Timothy and Maura, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-04": {
+      "title": "Pelagia, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-05": {
+      "title": "Irene, holy and great martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-06": {
+      "title": "Job, the Holy and Longsuffering One",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-07": {
+      "title": "Appearance of the Holy Cross over Jerusalem. Acacius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-08": {
+      "title": "Apostle and Evangelist, John the Theologian. Ven. Arsenius the Great",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-09": {
+      "title": "Prophet Isaiah, Christopher, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-10": {
+      "title": "Apostle Simon the Zealot",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-11": {
+      "title": "Mocius, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-12": {
+      "title": "H. Fathers Epiphanius, Bishop of Cyprus and Germanus the Hymnographer, Patriarch of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-13": {
+      "title": "Glykeria, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-14": {
+      "title": "Isidore of Chios, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-15": {
+      "title": "Ven. Father Pachomius the Great. H. Father Achilles the Wonderworker, Bishop of Larissa",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-16": {
+      "title": "Ven. Father Theodore the Sanctified",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-17": {
+      "title": "Andronicus and Junias, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-18": {
+      "title": "Saturday of the Dead Peter, Dionysius and others, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-19": {
+      "title": "Hieromartyr Patick, Bishop of Prussa",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-20": {
+      "title": "Thallelaius, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-21": {
+      "title": "(†) Ss. Constantine and Helen",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 26:1, 12-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 10:1-19",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-22": {
+      "title": "Basillicus, martyr [St. Rita of Cascia]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "05-23": {
+      "title": "H. Father Michael the Confessor, Bishop of Synnada",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-24": {
+      "title": "Ven. Father Symeon of the Wondrous Mountain",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "05-25": {
+      "title": "Third Finding of the Honored Head of St. John the Baptist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-26": {
+      "title": "Apostle among the 70, Carpus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "05-27": {
+      "title": "Alladius, Martyr; Julius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "05-28": {
+      "title": "Eutychius, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-29": {
+      "title": "Theodosia, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-30": {
+      "title": "Ven. Father Isaac, Hegumen of the Monastery of Dalmatus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "05-31": {
+      "title": "Hermas, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-01": {
+      "title": "Justin the Philosopher, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-02": {
+      "title": "(†) BLESSED MARTYR BISHOPS",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb 7,26-28,8: 1-2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John:15:17-27; 16:1-2",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Harti)"
+    },
+    "06-03": {
+      "title": "Lucillian and Paula, martyrs and their companions. Hypatius, Paul and Dionysius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-04": {
+      "title": "Metrophanes, Bishop of Canstantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-05": {
+      "title": "Hieromartyr Dorotheus, Bishop of Tyre",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-06": {
+      "title": "Ven. Father Bessarion the Wonderworker. Ven. Father Hilarion the Younger of the Monastery of Dalmatus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-07": {
+      "title": "Hieromartyr Theodotus of Ancyra",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-08": {
+      "title": "Translation of the Relics of the Great-Martyr Theodore Stratelates",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-09": {
+      "title": "Monday of the Holy Spirit H. Father Cyril, Archbishop of Alexandria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-10": {
+      "title": "Alexander and Antonina, martyrs. Hieromartyr Timothy of Prussa",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-11": {
+      "title": "Apostles Bartholomew & Barnabus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-12": {
+      "title": "Ven. Fathers Onuphrius & Peter of Mt. Athos",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-13": {
+      "title": "Aquilina, martyr. H. Father Triphylius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-14": {
+      "title": "Prophet Elisha. H. Father Methodius of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-15": {
+      "title": "Prophet Amos",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-16": {
+      "title": "H. Father Tikhon, Bishop and Wonderworker",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-17": {
+      "title": "Manuel, Sabel and Ishmael, martyres",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-18": {
+      "title": "Leontius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-19": {
+      "title": "Apostle Jude, Brother of the Lord",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-20": {
+      "title": "Hieromartyr Methodius of Patara",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-21": {
+      "title": "Julian of Tarsus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-22": {
+      "title": "Hieromartyr Eusebius of Samosata [St. Paulinus of Nola]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-23": {
+      "title": "Agrippina, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-24": {
+      "title": "(†) Nativity of St. John the Baptist. (Sânzienele)",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Rom 13:11-14; 14:1-4",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk 1:1-25;57-68; 76-80",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "06-25": {
+      "title": "Ven. Febronia, nun martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-26": {
+      "title": "Ven. Father David of Thessalonica",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-27": {
+      "title": "Ven. Father Sampson the Hospitaler",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-28": {
+      "title": "Translation of the Relics of the Unmercenary Healers Cyrus and John Apostles’ Fast ends",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "06-29": {
+      "title": "(†) HOLY APOSTLES PETER AND PAUL",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Cor. 11:21-12:9",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt. 16:13-19",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true
+    },
+    "06-30": {
+      "title": "Synaxis of the Twelve Apostles",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-01": {
+      "title": "Cosmas and Damian, Holy Wonderworkers",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-02": {
+      "title": "Deposition of the Mantle of the Mother of God",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-03": {
+      "title": "Hyacinth, martyr. Holy Father Anatolius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-04": {
+      "title": "St. Andrew of Crete",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-05": {
+      "title": "Ven. Martha. Ven. Father Athanasius of Athos",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-06": {
+      "title": "Ven. Father Sisoes the Great [St. Maria Goretti]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-07": {
+      "title": "Ven. Father Thomas of Maleum. Ven. Acacius mentioned in the Ladder. Cyriacus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-08": {
+      "title": "Great Martyr Procopius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-09": {
+      "title": "Hieromartyr Pancratius of Taormina",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-10": {
+      "title": "45 Martyrs in Nicopolis in Armenia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-11": {
+      "title": "Euphemia, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-12": {
+      "title": "Proclus and Hilarion, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-13": {
+      "title": "Synaxis of the Archangel Gabriel. Ven. Stephen",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-14": {
+      "title": "Apostle among the 70, Aquila. Holy Father Joseph the Confessor, of Thessalonica",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-15": {
+      "title": "Cyricus and his mother Julitta, Martyrs [St Bonaventure]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-16": {
+      "title": "Ven. Athenogenes and his 10 disciples",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-17": {
+      "title": "Great-martyr Marina",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-18": {
+      "title": "Emilian, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-19": {
+      "title": "Ven. Mother Macrina",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-20": {
+      "title": "(†) Holy Prophet Elijah the Tishbite",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "James 5:10-20",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 4:22-26, 28-30",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-21": {
+      "title": "Ven. Symeon, Fool-for-Christ, and his fellow ascetic, John",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-22": {
+      "title": "Mary Magdalene, Equal to the Apostles",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-23": {
+      "title": "Translation of the Relics of St. Phocas, martyr. Prophet Ezekiel",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-24": {
+      "title": "Christina, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-25": {
+      "title": "Dormition of St. Anne, mother of the Theotokos. Holy Women Olympiada the Deaconess & Eupraxia the Virgin",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-26": {
+      "title": "Hermolaus, Hermocrates, Hermippus, martyrs Paraskeve, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-27": {
+      "title": "(†) Great-Martyr Panteleimon, moneyless healer [patronal feast (hram) of the wooden church at the Cathedral]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-28": {
+      "title": "Apostles & Deacons Prochorus, Nicanor, Timon & Parmenas",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "07-29": {
+      "title": "Callinicus, Martyr; Theodota, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-30": {
+      "title": "Apostles among the 70, Silas, Silvanus, Crescens, Epenetus & Andronicus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "07-31": {
+      "title": "Ven. Eudochius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-01": {
+      "title": "Seven Holy Maccabees and their Mother, Solomonia and their Teacher, Eleazar. Beginning of the Dormition Fast",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-02": {
+      "title": "Translation of the Relics of the Protomartyr Stephen",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-03": {
+      "title": "Ven. Fathers Isaac, Dalmatus and Faustus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-04": {
+      "title": "Seven Holy Youths of Ephesus. Ven. Eudochia, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-05": {
+      "title": "Forefeast of the Transfiguration Eusignius, Martyr; Fabian, Pope",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-06": {
+      "title": "(†) TRANSFIGURATION OF OUR LORD JESUS CHRIST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Peter 1:10-19",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt 17:1-9",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "08-07": {
+      "title": "Ven. Dometius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-08": {
+      "title": "Emilian the Confessor, Bishop of Cyzicus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-09": {
+      "title": "Apostle Matthias [St. Teresa Benedicta of the Cross (Edith Stein), patroness of Europe]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-10": {
+      "title": "Lawrence, archdeacon and martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-11": {
+      "title": "Euplus, deacon and martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-12": {
+      "title": "Photius and Anicetus, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-13": {
+      "title": "Leavetaking of Transfiguration. Translation of the Relics of St. Maximos the Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-14": {
+      "title": "Holy Prophet Micheas. Forefeast of the Dormition of the Mother of God. Dormition fast ends",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-15": {
+      "title": "(†) DORMITION OF THE MOTHER OF GOD",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Phil. 2:5-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 10:38-42, 11:27-28",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "08-16": {
+      "title": "Translation of the Holy Icon of our Lord, Not Made by Human Hands (the Mandylion) Diomedes, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-17": {
+      "title": "Myron, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "08-18": {
+      "title": "Florus and Laurus, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "08-19": {
+      "title": "Andrew the General and Companions, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-20": {
+      "title": "Samuel, prophet",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-21": {
+      "title": "Apostle Thaddeus. Bassa, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-22": {
+      "title": "Agathonicus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-23": {
+      "title": "Leavetaking of Dormition Lupus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-24": {
+      "title": "Eutychius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "08-25": {
+      "title": "Translation of the Relics of the Apostle Bartholomew. Apostle Titus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "08-26": {
+      "title": "Adrian and Natalia, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-27": {
+      "title": "Ven. Father Poemen",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-28": {
+      "title": "Ven. Father Moses the Ethiopian",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-29": {
+      "title": "(†) Beheading of St. John the Baptist. Not obligatory",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts 13:25-33",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mk 6:14-30",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict fast and abstinence"
+    },
+    "08-30": {
+      "title": "Alexander, John and Paul the New, Archbishops of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "08-31": {
+      "title": "Deposition of the Cincture of the Mother of God",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-01": {
+      "title": "Church New Year Ven. Fr. Simeon the Stylite. Mother of God of Miasena. Holy 40 Virgin Martyrs and Amon, their teacher. Joshua, son of Nun",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-02": {
+      "title": "Mamas, Mrt. John the Faster, Patriarch of Constantinopole",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-03": {
+      "title": "Hieromartyr Anthimus, Bishop of Nicomedia. H. Father Theoktistos",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-04": {
+      "title": "Hieromartyr Babylas, Bishop of Antioch. Prophet Moses the God-Seer",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-05": {
+      "title": "Zechariah, father of St. John the Baptist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-06": {
+      "title": "Miracle of the Archangel Michael at Chonae",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-07": {
+      "title": "Forefeast of the Nativity of the Mother of God Sozon, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-08": {
+      "title": "(†) NATIVITY OF THE MOTHER OF GOD",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Phil 2:5-11",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk 10:38-42, 11:27-28",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true
+    },
+    "09-09": {
+      "title": "Joachim and Anne, Parents of the Mother of God; Severian, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-10": {
+      "title": "Minodora, Metrodora & Nymphodora, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-11": {
+      "title": "Ven. Mother Theodora of Alexandria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-12": {
+      "title": "Leavetaking of the Nativity of the Mother of God Autonomus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-13": {
+      "title": "Preparation of the Feast of the Exaltation of the Holy Cross Dedication of the Basilica of the Resurrection Hieromartyr Cornelius the Centurion",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-14": {
+      "title": "(†) EXALTATION OF THE CROSS",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "1 Cor 1:18-24",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 19:6-11, 13-20, 25-28, 30-35",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Strict Fast and Abstinence"
+    },
+    "09-15": {
+      "title": "Nicetas the Goth, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-16": {
+      "title": "Great Martyr Euphemia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-17": {
+      "title": "Sophia (Wisdom) & her daughters, Pistis, Elpidia & Agapia (Faith, Hope & Charity), martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-18": {
+      "title": "H. Father Eumenius of G/ortyna in Crete",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-19": {
+      "title": "Trophimus, Sabbatius & Dorymedont, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-20": {
+      "title": "Eustathius, his wife Theopista and their two sons Agapius and Theopistus, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-21": {
+      "title": "Leavetaking of Exaltation of the Cross. Apostle of the 70, Codratus of Magnesia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-22": {
+      "title": "Hieromartyr Phocas of Sinope",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-23": {
+      "title": "Conception of St John the Baptist; [St Padre Pio] Charity), martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-24": {
+      "title": "Great-martyr Thecla, equal to the Apostles",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-25": {
+      "title": "Ven. Euphrosyna of Alexandria, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-26": {
+      "title": "Dormition of the Apostle John the Theologian",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-27": {
+      "title": "Callistratus and his companions, martyrs [St. Vincent de Paul]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "09-28": {
+      "title": "Ven. Father Chariton the Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-29": {
+      "title": "Ven. Father Cyriacus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "09-30": {
+      "title": "Gregory the Illuminator of Armenia, Bishop and Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-01": {
+      "title": "Apostle Ananias. Ven. Romanus the Hymnographer",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-02": {
+      "title": "Cyprian and Justina, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-03": {
+      "title": "H. Father Dionysius the Areopagite, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-04": {
+      "title": "H. Father Hierotheus, Bishop of Athens",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-05": {
+      "title": "Charitina, woman martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-06": {
+      "title": "Apostle Thomas",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-07": {
+      "title": "Sergius and Bacchus, Martyrs; [Our Lady of the Rosary]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-08": {
+      "title": "Ven. Mother Pelagia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-09": {
+      "title": "Apostle James, son of Alphaeus. Ven. Andronicus and his wife, Athanasia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-10": {
+      "title": "Eulampius and Eulampia, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-11": {
+      "title": "Apostle Philip, one of the First Seven Deacons Ven. Father Theophanes the Confessor, Bishop of Nicea [Pope St. John XXIII]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-12": {
+      "title": "Probus, Tarachus and Andronicus, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-13": {
+      "title": "Carpus, Papylas and Agathonicus, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-14": {
+      "title": "Nazarius, Gervasius, Protasius & Celsus, Mrt; Ven. Cosmas of Maiuma",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-15": {
+      "title": "Lucian, Priest of the Great Church of Antioch, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-16": {
+      "title": "Eulampius and Eulampia, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-17": {
+      "title": "Prophet Hosea. Ven. Father Andrew of Crete",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-18": {
+      "title": "Apostle Luke the Evangelist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-19": {
+      "title": "Prophet Joel. Varus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-20": {
+      "title": "Great-martyr Artemius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-21": {
+      "title": "Ven. Hilarion the Great [Ven. Ursula]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-22": {
+      "title": "H. Father Abercius the Wonderworker, equal to the Apostles, bishop of Hierapolis. Seven Holy Youths of Ephesus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-23": {
+      "title": "Apostle James, Brother of the Lord",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-24": {
+      "title": "Arethas and companions, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-25": {
+      "title": "Marcian and Martyrius, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-26": {
+      "title": "(†) Holy Great-Martyr Demetrius, Fount of Myrrh",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "2 Tim. 2:1-19",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "John, 12:17-6:2",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-27": {
+      "title": "Nestor, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "10-28": {
+      "title": "Terence and Neonila, Martyrs; Ven. Stephen the Sabbaite",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-29": {
+      "title": "Anastasia the Roman, woman martyr. Ven. Father Abraham and his niece, Mary",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-30": {
+      "title": "Zenobius and his siter Zenobia, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "10-31": {
+      "title": "Apostles among the 70, Stachys, Apelles, Amplius, Urban, Aristobulus and Narcissus. Epimarchius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-01": {
+      "title": "Cosmas and Damian, unmercenary healers",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-02": {
+      "title": "Akindinus, Pegasius and others, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "11-03": {
+      "title": "Acepsimas, Joseph, Aeithalas and Joseph, martyrs. Dedicaiton of the Church of St. George in Lydda",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "11-04": {
+      "title": "Joannicius the Great; Nicander & Hermeus, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-05": {
+      "title": "Galaction and Episteme, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-06": {
+      "title": "H. Father Paul the Confessor",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-07": {
+      "title": "33 Martyrs of Melitene. Ven. Lazarus of Mt. Galesion",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-08": {
+      "title": "(†)Holy Archangels Michael and Gabriel and all angelic powers. Not obligatory",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 2:2-10",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk. 10: 16-21",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "11-09": {
+      "title": "Onesiphorus and Porphyrius, martyrs Ven. Mothers Matrona and Theoctista",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "11-10": {
+      "title": "Apostles Erastes and Olympus. Orestes, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "11-11": {
+      "title": "Menas, Victor, Vincent & Stephanida, Martyrs; Ven. Theodore the Studite",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-12": {
+      "title": "Hieromartyr Josaphat of Polotsk. H. Father John the Merciful, Patriarch of Alexandria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-13": {
+      "title": "H. Father John Chrysostom",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 7-26-8:2",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn. 10:9-16",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-14": {
+      "title": "Apostle Philip",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-15": {
+      "title": "Gurias, Samonas and Habib, martyrs Beginning of Christmas fast (Advent)",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-16": {
+      "title": "Apostle Matthew the Evangelist",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-17": {
+      "title": "H. Father Gregory of Neoceasarea",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-18": {
+      "title": "Plato & Romanus, Martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-19": {
+      "title": "Prophet Obadiah. Barlaam, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-20": {
+      "title": "Forefeast of the Entry of the Mother of God. H. Fathers Gregory the Decapolite and Proclus of Constantinople",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-21": {
+      "title": "(†) ENTRANCE INTO THE TEMPLE OF THE MOTHER OF GOD",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 9:1-7",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Lk 10:38-42, 11:27-28",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "11-22": {
+      "title": "Apostle among the 70, Philemon Cecilia and others, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-23": {
+      "title": "H. Fathers Amphilochius and Gregory",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-24": {
+      "title": "Ss. Clement of Rome and Peter of Alexandria",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-25": {
+      "title": "Leavetaking of Entrance in the Temple of the Mother of God, Great-Martyr Catherine; Mercury, Martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-26": {
+      "title": "Ven. Alypius the Stylite. Nicon the Wonderworker",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "11-27": {
+      "title": "James the Persian, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârti)"
+    },
+    "11-28": {
+      "title": "Ven. Stephen the Younger. Irenarchus, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârti)"
+    },
+    "11-29": {
+      "title": "Paramon and Philumenes, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârti)"
+    },
+    "11-30": {
+      "title": "Apostle Andrew the First- called",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârti)"
+    },
+    "12-01": {
+      "title": "Common A bstinence H. Prophet Nahum",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "12-02": {
+      "title": "inen ce Prophet Habakkuk",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-03": {
+      "title": "Prophet Zephaniah; [St Francis Xavier]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-04": {
+      "title": "Barbara, martyr. H. Father John of Damascus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-05": {
+      "title": "Ven. Father Sabbas the Sanctified",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-06": {
+      "title": "(†) St. Nicholas the Wonderworker of Myra in Lycia",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 13:17-21",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Luke 6:17-23a",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "12-07": {
+      "title": "H. Father Ambrose of Milan",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-08": {
+      "title": "Ven. Father Patapius",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-09": {
+      "title": "Conception by Anne of the Mother of God (Immaculate Conception)",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-10": {
+      "title": "Menas, Hermogenes and Eugraphius, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-11": {
+      "title": "Ven. Father Daniel the Stylite",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-12": {
+      "title": "St. Spyridon the Wonderworker",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-13": {
+      "title": "† Eustratius, Auxentius, Eugene, Mardarius, Orestes and Lucy, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-14": {
+      "title": "Thryces, Leucius, Callinicus and others, martyrs [St. John of the Cross]",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-15": {
+      "title": "i nence Eleutherius, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-16": {
+      "title": "inenc e Prophet Haggai",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-17": {
+      "title": "The Holy Prophet Daniel and the Three Holy Youths",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-18": {
+      "title": "Sebastian and others, martyrs",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-19": {
+      "title": "St. Boniface",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-20": {
+      "title": "Forefeast of the Nativity St. Ignatius of Antioch, the God Bearer",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-21": {
+      "title": "Saturday before the Nativity Juliana of Nicomedia, martyr",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-22": {
+      "title": "Anastasia, martyr, the Deliverer from Poisons",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-23": {
+      "title": "Anticipation of the Vigil of the Nativity 10 Martyrs of Crete",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Common Abstinence"
+    },
+    "12-24": {
+      "title": "Vigil of the Nativity (Christmas Eve) Royal Hours, Vespers with",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Strict Fast and abstinence"
+    },
+    "12-25": {
+      "title": "(†) NATIVITY OF OUR LORD JESUS CHRIST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal. 4:4-7",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 2:1-12",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "12-26": {
+      "title": "(†) SYNAXIS OF THE MOTHER OF GOD. Readings of the Sunday after Nativity",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Gal. 1:11-19",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt 2: 13-23",
+          "book": ""
+        }
+      ],
+      "beatsSunday": true,
+      "holyDayOfObligation": true,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "12-27": {
+      "title": "(†) St. Stephen, Protomartyr and Archdeacon",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Acts. 6:8 to 7:5a and 47-60",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt 21:33-42",
+          "book": ""
+        }
+      ],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "12-28": {
+      "title": "Saturday after the Nativity 20,000 Martyrs of Nicomedia",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "12-29": {
+      "title": "14,000 infants martyred by King Herod. Ven. Father Marcellus",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false
+    },
+    "12-30": {
+      "title": "Anysia, Martyr; Zoticus the Protector of Orphans, Priest",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    },
+    "12-31": {
+      "title": "Leavetaking of the Nativity (New Years Eve) Ven. Melania of Rome",
+      "readings": [],
+      "beatsSunday": false,
+      "holyDayOfObligation": false,
+      "fasting": "Dispensation (Hârți)"
+    }
+  }
+}

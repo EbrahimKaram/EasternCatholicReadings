@@ -1,3 +1,17 @@
+import {
+  addDays,
+  civilDate,
+  diffDays,
+  gregorianEaster,
+  isSunday,
+  monthDayKey,
+  pad,
+  sundayBefore,
+  sundayOnOrAfter,
+  toDateParts,
+  weekdayIndex,
+} from './calendarMath.js';
+
 const WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const ORDINALS = [
   '',
@@ -100,56 +114,10 @@ const PRELENT = {
   departed: 'Sunday of the Faithful Departed',
 };
 
-const pad = (n) => String(n).padStart(2, '0');
+export { gregorianEaster, toDateParts };
 
-export const toDateParts = (input) => {
-  if (input instanceof Date) {
-    return {
-      year: input.getFullYear(),
-      month: input.getMonth() + 1,
-      day: input.getDate(),
-    };
-  }
-  const [year, month, day] = String(input).split('-').map(Number);
-  return { year, month, day };
-};
-
-const civilDate = (year, month, day) => new Date(year, month - 1, day);
-
-const addDays = (d, days) => {
-  const next = new Date(d.getFullYear(), d.getMonth(), d.getDate() + days);
-  return next;
-};
-
-const diffDays = (a, b) => Math.round((a - b) / 86400000);
-
-const weekdayIndex = (d) => (d.getDay() + 6) % 7; // Mon=0 ... Sun=6
-const isSunday = (d) => d.getDay() === 0;
 const weekdayName = (d) => WEEKDAYS[weekdayIndex(d)];
 const ordinal = (n) => ORDINALS[n] ?? String(n);
-const monthDayKey = (d) => `${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-
-export const gregorianEaster = (year) => {
-  const a = year % 19;
-  const b = Math.floor(year / 100);
-  const c = year % 100;
-  const d = Math.floor(b / 4);
-  const e = b % 4;
-  const f = Math.floor((b + 8) / 25);
-  const g = Math.floor((b - f + 1) / 3);
-  const h = (19 * a + b - d - g + 15) % 30;
-  const i = Math.floor(c / 4);
-  const k = c % 4;
-  const l = (32 + 2 * e + 2 * i - h - k) % 7;
-  const m = Math.floor((a + 11 * h + 22 * l) / 451);
-  const month = Math.floor((h + l - 7 * m + 114) / 31);
-  const day = ((h + l - 7 * m + 114) % 31) + 1;
-  return civilDate(year, month, day);
-};
-
-const sundayOnOrAfter = (d) => addDays(d, (7 - d.getDay()) % 7);
-
-const sundayBefore = (d) => addDays(d, d.getDay() === 0 ? -7 : -d.getDay());
 
 export const firstCrossSunday = (year) => {
   const exaltation = civilDate(year, 9, 14);
