@@ -1,0 +1,246 @@
+diff --git a/Maronite Readings/distill_maronite_lectionary.py b/Maronite Readings/distill_maronite_lectionary.py
+index 745fb7e..c743b90 100644
+--- a/Maronite Readings/distill_maronite_lectionary.py	
++++ b/Maronite Readings/distill_maronite_lectionary.py	
+@@ -370,6 +370,14 @@ def temporal_slot(d: date) -> dict:
+ 
+     cross0 = first_cross_sunday(year)
+     cons = consecration_sunday(year)
++    exaltation = date(year, 9, 14)
++    if exaltation < d < cross0:
++        n = (d - exaltation).days
++        return slot(
++            f"exaltation:day:{n}",
++            f"{ordinal(n)} day after the Exaltation of the Cross",
++            "cross",
++        )
+     if cross0 <= d < cons:
+         week = ((d - cross0).days // 7) + 1
+         if is_sunday:
+@@ -477,6 +485,11 @@ def pick_majority(counter: Counter):
+     return counter.most_common(1)[0][0]
+ 
+ 
++def normalize_title(title: str) -> str:
++    # The scraped source spells it "Exalation"; the feast is the Exaltation.
++    return (title or "").replace("Exalation", "Exaltation")
++
++
+ def distill(calendar: dict) -> tuple[dict, dict]:
+     temporal_titles: dict[str, Counter] = defaultdict(Counter)
+     temporal_readings: dict[str, Counter] = defaultdict(Counter)
+@@ -525,7 +538,7 @@ def distill(calendar: dict) -> tuple[dict, dict]:
+     temporal = {}
+     conflicts = []
+     for slot_key, title_counts in temporal_titles.items():
+-        title = pick_majority(title_counts)
++        title = normalize_title(pick_majority(title_counts))
+         rcounts = temporal_readings[slot_key]
+         if len(rcounts) > 1:
+             conflicts.append(
+diff --git a/client/src/data/maroniteLectionary.json b/client/src/data/maroniteLectionary.json
+index d456e51..0140c98 100644
+--- a/client/src/data/maroniteLectionary.json
++++ b/client/src/data/maroniteLectionary.json
+@@ -5520,8 +5520,53 @@
+         }
+       ]
+     },
+-    "pentecost:weekday:15:3": {
+-      "title": "Fourth day after the Exalation of the Cross",
++    "exaltation:day:1": {
++      "title": "First day after the Exaltation of the Cross",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "2 P 1:1-11",
++          "book": "second Letter of Peter"
++        },
++        {
++          "type": "gospel",
++          "reference": "Jn 3:11-21",
++          "book": "Holy Gospel of Jesus Christ according to Saint John"
++        }
++      ]
++    },
++    "exaltation:day:2": {
++      "title": "Second day after the Exaltation of the Cross",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "2 P 1:12-21",
++          "book": "second Letter of Peter"
++        },
++        {
++          "type": "gospel",
++          "reference": "Jn 8:21-30",
++          "book": "Holy Gospel of Jesus Christ according to Saint John"
++        }
++      ]
++    },
++    "exaltation:day:3": {
++      "title": "Third day after the Exaltation of the Cross",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "2 P 3:1-9",
++          "book": "second Letter of Peter"
++        },
++        {
++          "type": "gospel",
++          "reference": "Jn 12:31-36",
++          "book": "Holy Gospel of Jesus Christ according to Saint John"
++        }
++      ]
++    },
++    "exaltation:day:4": {
++      "title": "Fourth day after the Exaltation of the Cross",
+       "readings": [
+         {
+           "type": "psalm",
+@@ -5535,8 +5580,8 @@
+         }
+       ]
+     },
+-    "pentecost:weekday:15:4": {
+-      "title": "Fifth day after the Exalation of the Cross",
++    "exaltation:day:5": {
++      "title": "Fifth day after the Exaltation of the Cross",
+       "readings": [
+         {
+           "type": "psalm",
+@@ -5550,6 +5595,21 @@
+         }
+       ]
+     },
++    "exaltation:day:6": {
++      "title": "Sixth day after the Exaltation of the Cross",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "Jude 1:17-25",
++          "book": "Letter of Jude"
++        },
++        {
++          "type": "gospel",
++          "reference": "Lc 23:36-43",
++          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
++        }
++      ]
++    },
+     "cross:weekday:4:2": {
+       "title": "Wednesday of the fourth Week of the Cross",
+       "readings": [
+@@ -5745,6 +5805,36 @@
+         }
+       ]
+     },
++    "pentecost:weekday:15:3": {
++      "title": "Thursday of the Fifteenth week of Pentecost",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "Jc 2:1-13",
++          "book": "Letter of James"
++        },
++        {
++          "type": "gospel",
++          "reference": "Lc 17:26-30",
++          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
++        }
++      ]
++    },
++    "pentecost:weekday:15:4": {
++      "title": "Friday of the Fifteenth week of Pentecost",
++      "readings": [
++        {
++          "type": "psalm",
++          "reference": "Jc 2:14-26",
++          "book": "Letter of James"
++        },
++        {
++          "type": "gospel",
++          "reference": "Lc 17:31-37",
++          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
++        }
++      ]
++    },
+     "pentecost:weekday:16:4": {
+       "title": "Friday of the Sixteenth week of Pentecost",
+       "readings": [
+@@ -5779,21 +5869,6 @@
+           "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+         }
+       ]
+-    },
+-    "pentecost:weekday:17:5": {
+-      "title": "Fifth day after the Exalation of the Cross",
+-      "readings": [
+-        {
+-          "type": "psalm",
+-          "reference": "Jude 1:1-7",
+-          "book": "Letter of Jude"
+-        },
+-        {
+-          "type": "gospel",
+-          "reference": "Jn 18:33-38",
+-          "book": "Holy Gospel of Jesus Christ according to Saint John"
+-        }
+-      ]
+     }
+   },
+   "sanctoral": {
+diff --git a/client/src/services/maroniteCalendar.js b/client/src/services/maroniteCalendar.js
+index 0cdee49..b051e35 100644
+--- a/client/src/services/maroniteCalendar.js
++++ b/client/src/services/maroniteCalendar.js
+@@ -226,6 +226,15 @@ export const temporalSlot = (input) => {
+ 
+   const cross0 = firstCrossSunday(year);
+   const cons = consecrationSunday(year);
++  const exaltation = civilDate(year, 9, 14);
++  if (d > exaltation && d < cross0) {
++    const n = diffDays(d, exaltation);
++    return slot(
++      `exaltation:day:${n}`,
++      `${ordinal(n)} day after the Exaltation of the Cross`,
++      'cross',
++    );
++  }
+   if (d >= cross0 && d < cons) {
+     const week = Math.floor(diffDays(d, cross0) / 7) + 1;
+     if (sunday) {
+diff --git a/client/src/services/maroniteCalendar.test.js b/client/src/services/maroniteCalendar.test.js
+index ee48314..c421cde 100644
+--- a/client/src/services/maroniteCalendar.test.js
++++ b/client/src/services/maroniteCalendar.test.js
+@@ -79,3 +79,29 @@ describe('resolveMaroniteDay overlays', () => {
+     assert.match(day.cards[1].liturgic_title, /Isaiah/);
+   });
+ });
++
++describe('days after the Exaltation of the Cross', () => {
++  it('slots Sept 15 up to the first Sunday of the Cross as days after the Exaltation', () => {
++    assert.equal(temporalSlot('2026-09-15').key, 'exaltation:day:1');
++    assert.equal(temporalSlot('2026-09-15').title, 'First day after the Exaltation of the Cross');
++    assert.equal(temporalSlot('2026-09-18').key, 'exaltation:day:4');
++    assert.equal(temporalSlot('2026-09-18').title, 'Fourth day after the Exaltation of the Cross');
++    assert.equal(temporalSlot('2026-09-19').key, 'exaltation:day:5');
++    assert.equal(temporalSlot('2026-09-20').key, 'cross:sunday:1');
++  });
++
++  it('covers six days when Sept 14 is a Sunday and none when it is a Saturday', () => {
++    assert.equal(temporalSlot('2025-09-15').key, 'exaltation:day:1');
++    assert.equal(temporalSlot('2025-09-20').key, 'exaltation:day:6');
++    assert.equal(temporalSlot('2025-09-21').key, 'cross:sunday:1');
++    assert.equal(temporalSlot('2024-09-15').key, 'cross:sunday:1');
++    assert.equal(temporalSlot('2024-09-14').key.startsWith('exaltation'), false);
++  });
++
++  it('resolves the dailygospel-matching readings for the fourth day after the Exaltation', () => {
++    const day = resolveMaroniteDay('2026-09-18', lectionary);
++    assert.equal(day.liturgic_title, 'Fourth day after the Exaltation of the Cross');
++    assert.ok(day.readings.some((r) => /2 P 3:10-18/.test(r.reference)));
++    assert.ok(day.readings.some((r) => /Mc 8:31-38/.test(r.reference)));
++  });
++});

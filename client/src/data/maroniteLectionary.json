@@ -5520,8 +5520,53 @@
         }
       ]
     },
-    "pentecost:weekday:15:3": {
-      "title": "Fourth day after the Exalation of the Cross",
+    "exaltation:day:1": {
+      "title": "First day after the Exaltation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 P 1:1-11",
+          "book": "second Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 3:11-21",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "exaltation:day:2": {
+      "title": "Second day after the Exaltation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 P 1:12-21",
+          "book": "second Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 8:21-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "exaltation:day:3": {
+      "title": "Third day after the Exaltation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "2 P 3:1-9",
+          "book": "second Letter of Peter"
+        },
+        {
+          "type": "gospel",
+          "reference": "Jn 12:31-36",
+          "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "exaltation:day:4": {
+      "title": "Fourth day after the Exaltation of the Cross",
       "readings": [
         {
           "type": "psalm",
@@ -5535,8 +5580,8 @@
         }
       ]
     },
-    "pentecost:weekday:15:4": {
-      "title": "Fifth day after the Exalation of the Cross",
+    "exaltation:day:5": {
+      "title": "Fifth day after the Exaltation of the Cross",
       "readings": [
         {
           "type": "psalm",
@@ -5547,6 +5592,21 @@
           "type": "gospel",
           "reference": "Jn 18:33-38",
           "book": "Holy Gospel of Jesus Christ according to Saint John"
+        }
+      ]
+    },
+    "exaltation:day:6": {
+      "title": "Sixth day after the Exaltation of the Cross",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jude 1:17-25",
+          "book": "Letter of Jude"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 23:36-43",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
         }
       ]
     },
@@ -5745,6 +5805,36 @@
         }
       ]
     },
+    "pentecost:weekday:15:3": {
+      "title": "Thursday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 2:1-13",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:26-30",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
+    "pentecost:weekday:15:4": {
+      "title": "Friday of the Fifteenth week of Pentecost",
+      "readings": [
+        {
+          "type": "psalm",
+          "reference": "Jc 2:14-26",
+          "book": "Letter of James"
+        },
+        {
+          "type": "gospel",
+          "reference": "Lc 17:31-37",
+          "book": "Holy Gospel of Jesus Christ according to Saint Luke"
+        }
+      ]
+    },
     "pentecost:weekday:16:4": {
       "title": "Friday of the Sixteenth week of Pentecost",
       "readings": [
@@ -5777,21 +5867,6 @@
           "type": "gospel",
           "reference": "Lc 10:25-37",
           "book": "Holy Gospel of Jesus Christ according to Saint Luke"
-        }
-      ]
-    },
-    "pentecost:weekday:17:5": {
-      "title": "Fifth day after the Exalation of the Cross",
-      "readings": [
-        {
-          "type": "psalm",
-          "reference": "Jude 1:1-7",
-          "book": "Letter of Jude"
-        },
-        {
-          "type": "gospel",
-          "reference": "Jn 18:33-38",
-          "book": "Holy Gospel of Jesus Christ according to Saint John"
         }
       ]
     }

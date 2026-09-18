@@ -226,6 +226,15 @@ export const temporalSlot = (input) => {
 
   const cross0 = firstCrossSunday(year);
   const cons = consecrationSunday(year);
+  const exaltation = civilDate(year, 9, 14);
+  if (d > exaltation && d < cross0) {
+    const n = diffDays(d, exaltation);
+    return slot(
+      `exaltation:day:${n}`,
+      `${ordinal(n)} day after the Exaltation of the Cross`,
+      'cross',
+    );
+  }
   if (d >= cross0 && d < cons) {
     const week = Math.floor(diffDays(d, cross0) / 7) + 1;
     if (sunday) {
