@@ -370,6 +370,14 @@ def temporal_slot(d: date) -> dict:
 
     cross0 = first_cross_sunday(year)
     cons = consecration_sunday(year)
+    exaltation = date(year, 9, 14)
+    if exaltation < d < cross0:
+        n = (d - exaltation).days
+        return slot(
+            f"exaltation:day:{n}",
+            f"{ordinal(n)} day after the Exaltation of the Cross",
+            "cross",
+        )
     if cross0 <= d < cons:
         week = ((d - cross0).days // 7) + 1
         if is_sunday:
@@ -477,6 +485,11 @@ def pick_majority(counter: Counter):
     return counter.most_common(1)[0][0]
 
 
+def normalize_title(title: str) -> str:
+    # The scraped source spells it "Exalation"; the feast is the Exaltation.
+    return (title or "").replace("Exalation", "Exaltation")
+
+
 def distill(calendar: dict) -> tuple[dict, dict]:
     temporal_titles: dict[str, Counter] = defaultdict(Counter)
     temporal_readings: dict[str, Counter] = defaultdict(Counter)
@@ -525,7 +538,7 @@ def distill(calendar: dict) -> tuple[dict, dict]:
     temporal = {}
     conflicts = []
     for slot_key, title_counts in temporal_titles.items():
-        title = pick_majority(title_counts)
+        title = normalize_title(pick_majority(title_counts))
         rcounts = temporal_readings[slot_key]
         if len(rcounts) > 1:
             conflicts.append(

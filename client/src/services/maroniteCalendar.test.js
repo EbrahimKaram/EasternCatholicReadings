@@ -79,3 +79,29 @@ describe('resolveMaroniteDay overlays', () => {
     assert.match(day.cards[1].liturgic_title, /Isaiah/);
   });
 });
+
+describe('days after the Exaltation of the Cross', () => {
+  it('slots Sept 15 up to the first Sunday of the Cross as days after the Exaltation', () => {
+    assert.equal(temporalSlot('2026-09-15').key, 'exaltation:day:1');
+    assert.equal(temporalSlot('2026-09-15').title, 'First day after the Exaltation of the Cross');
+    assert.equal(temporalSlot('2026-09-18').key, 'exaltation:day:4');
+    assert.equal(temporalSlot('2026-09-18').title, 'Fourth day after the Exaltation of the Cross');
+    assert.equal(temporalSlot('2026-09-19').key, 'exaltation:day:5');
+    assert.equal(temporalSlot('2026-09-20').key, 'cross:sunday:1');
+  });
+
+  it('covers six days when Sept 14 is a Sunday and none when it is a Saturday', () => {
+    assert.equal(temporalSlot('2025-09-15').key, 'exaltation:day:1');
+    assert.equal(temporalSlot('2025-09-20').key, 'exaltation:day:6');
+    assert.equal(temporalSlot('2025-09-21').key, 'cross:sunday:1');
+    assert.equal(temporalSlot('2024-09-15').key, 'cross:sunday:1');
+    assert.equal(temporalSlot('2024-09-14').key.startsWith('exaltation'), false);
+  });
+
+  it('resolves the dailygospel-matching readings for the fourth day after the Exaltation', () => {
+    const day = resolveMaroniteDay('2026-09-18', lectionary);
+    assert.equal(day.liturgic_title, 'Fourth day after the Exaltation of the Cross');
+    assert.ok(day.readings.some((r) => /2 P 3:10-18/.test(r.reference)));
+    assert.ok(day.readings.some((r) => /Mc 8:31-38/.test(r.reference)));
+  });
+});
