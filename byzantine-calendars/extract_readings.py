@@ -17,7 +17,7 @@ IMPLICIT_LITURGY_RE = re.compile(r'Divine Liturgy:?\s*([^;]+);\s*([^;]+?)(?=\s*(
 EPISTLE_RE = re.compile(r'(?:^|[\s,;.])(?:Epistle\b|Ep\b\.?)\s*:?\s*(.+?)(?=\s*(?:Gospel|G\s*:|Following)|$)', re.IGNORECASE)
 APOSTLE_EPISTLE_RE = re.compile(r'(?:^|[\s,;.])(?:Apostle\b|Apost\.)\s+((?:[1-3]\s*)?(?:Acts|Rom|Cor|Gal|Eph|Phil|Col|Thess|Tim|Tit|Phlm|Philem|Heb|Jas|James|Pet|Jude|Rev)\.?\s*[^;]*?\d\s*:\s*\d[^;]*?)(?=\s*(?:;\s*)?(?:Gospel|G\s*:|Following)|$)', re.IGNORECASE)
 EPISTLE_BEFORE_GOSPEL_RE = re.compile(r'(?:^|[\s,;.])((?:[1-3]\s*)?(?:Acts|Rom|Cor|Gal|Eph|Phil|Col|Thess|Tim|Tit|Phlm|Philem|Heb|Jas|James|Pet|Jude|Rev)\.?\s*[^;]*?\d\s*:\s*\d[^;]*?)(?=\s*;\s*(?:Gospel|G\s*:))', re.IGNORECASE)
-GOSPEL_RE = re.compile(r'(?:^|[\s,;.])(?:Gospel|G\s*:)\s*(.+?)(?=\s*(?:Following|(?:Divine\s+)?Liturgy|Great\s+blessing\s+of\s+water|Holy\s+Day\s+of\s+Obligation|\.\s+[A-Z])|$)', re.IGNORECASE)
+GOSPEL_RE = re.compile(r'(?:^|[\s,;.])(?:Gospel\b|G\s*:)\s*(.+?)(?=\s*(?:Following|(?:Divine\s+)?Liturgy|Great\s+blessing\s+of\s+water|Holy\s+Day\s+of\s+Obligation|\.\s+[A-Z])|$)', re.IGNORECASE)
 FOLLOWING_NOTES_START_RE = re.compile(
     r'\b(?:the\s+readings?\s+for\s+the\s+following\s+week|following\s+week\s+readings?|following\s+week)\b',
     re.IGNORECASE

@@ -83,6 +83,20 @@ describe('cosmetic Sunday labels', () => {
 });
 
 describe('resolveByzantineDay', () => {
+  it('uses Hebrews for the Annunciation epistle in each source year', () => {
+    for (const year of [2024, 2025, 2026]) {
+      const day = resolveByzantineDay(`${year}-03-25`, lectionary);
+      assert.ok(day.readings.some((item) => item.type === 'epistle' && item.reference === 'Heb. 2:11-18'));
+    }
+  });
+
+  it('uses the corrected St. Demetrius Gospel on weekdays', () => {
+    for (const year of [2024, 2026]) {
+      const day = resolveByzantineDay(`${year}-10-26`, lectionary);
+      assert.ok(day.readings.some((item) => item.type === 'gospel' && item.reference === 'John 15:17-16:2'));
+    }
+  });
+
   it('returns Pascha epistle and gospel from the distilled lectionary', () => {
     const day = resolveByzantineDay('2024-03-31', lectionary);
     const refs = day.readings.map((item) => item.reference).join(' ');

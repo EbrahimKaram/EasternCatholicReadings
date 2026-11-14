@@ -59,7 +59,7 @@ export function parseReadingDescription(description) {
 
     // 5. Extract Gospel
     // Look for "Gospel:" followed by text until "Following", a new sentence with Capital Letter, or end
-    const gospelMatch = workText.match(/(?:^|[\s,;.])Gospel:?\s*(.+?)(?=\s*(?:Following|\.\s+[A-Z])|$)/i);
+    const gospelMatch = workText.match(/(?:^|[\s,;.])Gospel\b:?\s*(.+?)(?=\s*(?:Following|\.\s+[A-Z])|$)/i);
     if (gospelMatch) {
       gospel = clean(gospelMatch[1]);
       workText = workText.replace(gospelMatch[0], ' ');

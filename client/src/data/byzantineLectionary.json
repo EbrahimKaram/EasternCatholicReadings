@@ -554,7 +554,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "2:11-18",
+          "reference": "Heb. 2:11-18",
           "book": ""
         },
         {
@@ -575,16 +575,6 @@
         {
           "type": "gospel",
           "reference": "Jn. 12:1-18",
-          "book": ""
-        }
-      ]
-    },
-    "holyweek:thursday": {
-      "title": "GREAT AND HOLY THURSDAY Vespers with of St. Basil Reading of 12",
-      "readings": [
-        {
-          "type": "gospel",
-          "reference": "s",
           "book": ""
         }
       ]
@@ -669,7 +659,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "2:11-18",
+          "reference": "Heb. 2:11-18",
           "book": ""
         },
         {
@@ -684,7 +674,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "2:11-18",
+          "reference": "Heb. 2:11-18",
           "book": ""
         },
         {
@@ -1655,7 +1645,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "2:11-18",
+          "reference": "Heb. 2:11-18",
           "book": ""
         },
         {
@@ -1683,7 +1673,7 @@
       "fasting": "Common Abstinence"
     },
     "03-28": {
-      "title": "Vespers with of St. Basil Reading of 12",
+      "title": "Vespers with of St. Basil Reading of 12 Gospels",
       "readings": [],
       "beatsSunday": false,
       "holyDayOfObligation": false,
@@ -3243,7 +3233,7 @@
         },
         {
           "type": "gospel",
-          "reference": "John, 12:17-6:2",
+          "reference": "John 15:17-16:2",
           "book": ""
         }
       ],

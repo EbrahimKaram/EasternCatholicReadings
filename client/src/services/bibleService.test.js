@@ -2,6 +2,7 @@ import { afterEach, describe, it } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fetchScriptureText } from './bibleService.js';
+import { parseReadingDescription } from '../utils/readingParser.js';
 
 const originalFetch = globalThis.fetch;
 const originalStorage = globalThis.localStorage;
@@ -40,6 +41,13 @@ afterEach(() => {
 });
 
 describe('Bible API passages', () => {
+  it('does not interpret the twelve Gospels as a Gospel reference', () => {
+    const parsed = parseReadingDescription('Great and Holy Thursday: Reading of 12 Gospels');
+    assert.equal(parsed.gospel, null);
+    assert.match(parsed.notes, /12 Gospels/);
+    assert.equal(parseReadingDescription('Gospel: Lk. 1:24-38').gospel, 'Lk. 1:24-38');
+  });
+
   it('fetches both parts of the original Malachi reading', async () => {
     const requests = mockApi({
       'Malachi 2:1-1': verses(2, 1, 1),
@@ -116,7 +124,7 @@ describe('Bible API passages', () => {
     assert.equal(await fetchScriptureText('Matthew 3:1-5'), null);
   });
 
-  it('constructs valid requests for both lectionaries apart from known ambiguous source entries', async () => {
+  it('constructs valid requests for both lectionaries', async () => {
     const references = new Set();
     const collect = (value) => {
       if (!value || typeof value !== 'object') return;
@@ -154,6 +162,6 @@ describe('Bible API passages', () => {
     for (const reference of references) {
       if (!await fetchScriptureText(reference)) failures.push(reference);
     }
-    assert.deepEqual(failures.sort(), ['2:11-18', 'John, 12:17-6:2', 's'].sort());
+    assert.deepEqual(failures, []);
   });
 });

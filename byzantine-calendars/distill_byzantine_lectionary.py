@@ -81,6 +81,15 @@ def readings_from_row(row: dict) -> list[dict]:
     out = []
     epistle = normalize_ref(row.get("epistle"))
     gospel = normalize_ref(row.get("gospel"))
+    # The source calendars omit the book name for the Annunciation epistle.
+    if row["date"].month == 3 and row["date"].day == 25 and epistle == "2:11-18":
+        epistle = "Heb. 2:11-18"
+    # St. George's online calendar supplies the corrected St. Demetrius Gospel.
+    if row["date"].month == 10 and row["date"].day == 26 and gospel in {
+        "John, 12:17-6:2",
+        "John, 12:17 to 16:2",
+    }:
+        gospel = "John 15:17-16:2"
     if epistle:
         out.append({"type": "epistle", "reference": epistle, "book": ""})
     if gospel:
