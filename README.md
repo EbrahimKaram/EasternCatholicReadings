@@ -13,6 +13,10 @@ https://romaniancatholic.org/liturgical-calendar
 - **Maronite calendar:** computed in the browser from Easter, 14 September, 25 December, and 6 January, with a compact lectionary of references (`client/src/data/maroniteLectionary.json`)
 - **Scripture Text:** [Bible-api.com](https://bible-api.com) (Douay-Rheims Version)
 
+Some lectionary passages use different verse numbering from the API's
+Douay-Rheims text. The app adjusts verified passages and labels the API's
+verse numbers. Incomplete or ambiguous source references may still be
+unavailable. The API can also be temporarily unavailable or rate-limited.
 
 # Running
 To debug and test. You need to make sure you cd into `client`

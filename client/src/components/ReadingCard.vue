@@ -88,6 +88,8 @@ const epistleText = ref(null);
 const gospelText = ref(null);
 const loadingEpistle = ref(false);
 const loadingGospel = ref(false);
+const epistleError = ref(false);
+const gospelError = ref(false);
 
 const toggleEpistle = async () => {
   if (epistleText.value) {
@@ -97,7 +99,9 @@ const toggleEpistle = async () => {
   if (!parsed.value?.epistle) return;
 
   loadingEpistle.value = true;
+  epistleError.value = false;
   epistleText.value = await fetchScriptureText(parsed.value.epistle);
+  epistleError.value = !epistleText.value;
   loadingEpistle.value = false;
 };
 
@@ -109,7 +113,9 @@ const toggleGospel = async () => {
   if (!parsed.value?.gospel) return;
 
   loadingGospel.value = true;
+  gospelError.value = false;
   gospelText.value = await fetchScriptureText(parsed.value.gospel);
+  gospelError.value = !gospelText.value;
   loadingGospel.value = false;
 };
 </script>
@@ -258,6 +264,7 @@ const toggleGospel = async () => {
 
           <!-- Loading State -->
           <div v-if="loadingEpistle" class="mt-2 text-sm text-stone-400 animate-pulse">Loading scripture...</div>
+          <p v-else-if="epistleError" class="mt-2 text-sm text-stone-500">Passage text is unavailable. Check the reference or try again later.</p>
 
           <!-- The Actual Text -->
           <div v-if="epistleText"
@@ -281,6 +288,7 @@ const toggleGospel = async () => {
 
           <!-- Loading State -->
           <div v-if="loadingGospel" class="mt-2 text-sm text-stone-400 animate-pulse">Loading scripture...</div>
+          <p v-else-if="gospelError" class="mt-2 text-sm text-stone-500">Passage text is unavailable. Check the reference or try again later.</p>
 
           <!-- The Actual Text -->
           <div v-if="gospelText"

@@ -1,6 +1,20 @@
 const BASE_URL = 'https://bible-api.com';
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
+// These lectionary references use verse numbering different from the API's
+// Douay-Rheims text. The mapped ranges cover the same passage.
+const DOUAY_RHEIMS_RANGES = new Map([
+  ['1 thessalonians 4:13-18', '1 Thessalonians 4:12-17'],
+  ['2 thessalonians 2:13-17', '2 Thessalonians 2:12-16'],
+  ['mark 4:33-41', 'Mark 4:33-40'],
+  ['matthew 17:24-27', 'Matthew 17:23-26'],
+  ['acts 14:19-28', 'Acts 14:18-27'],
+  ['3 john 1:1-15', '3 John 1:1-14'],
+  ['mark 9:38-50', 'Mark 9:37-49'],
+  ['acts 7:51-60', 'Acts 7:51-59'],
+  ['acts 7:47-60', 'Acts 7:47-59'],
+]);
+
 const MARONITE_BOOK_ALIASES = [
   [/\b1\s*Co\b/gi, '1 Corinthians'],
   [/\b2\s*Co\b/gi, '2 Corinthians'],
@@ -93,7 +107,10 @@ export async function fetchScriptureText(reference) {
   if (!reference) return null;
 
   // 1. Clean the reference
-  const cleanRef = expandMaroniteBookCodes(reference)
+  const expandedRef = expandMaroniteBookCodes(reference);
+  const isaiahNumbering = /\bIsaiah\s+8:23-23\s*[;#]\s*Isaiah\s+9:1-5\b/i.test(expandedRef);
+  const cleanRef = expandedRef
+    .replace(/\bIsaiah\s+8:23-23\s*[;#]\s*Isaiah\s+9:1-5\b/gi, 'Isaiah 9:1-5')
     .replace(/#/g, '; ')
     // Handle prefixes like "2, Gospel Lk" or simple "Epistle "
     .replace(/^(?:[\d\s,]*)(Epistle|Gospel)\s*/i, '')
@@ -104,6 +121,7 @@ export async function fetchScriptureText(reference) {
     .replace(/\s+and\s+/gi, ';') // Treat textual 'and' as semicolon splits
     // Fix colons or commas incorrectly placed right after book abbreviations (e.g. "Acts: 2", "John, 12")
     .replace(/([a-zA-Z]+[.]?)[:\,]\s*(\d+)/g, '$1 $2')
+    .replace(/([a-zA-Z])\.(?=\d)/g, '$1 ')
     // Remove periods right after alphabetical book abbreviations (e.g. "Phil.", "Rom.")
     .replace(/([a-zA-Z])\./g, '$1')
     // Fix European comma as colon e.g. "Heb 7,26-28" ONLY if followed by verse-dash
@@ -142,7 +160,7 @@ export async function fetchScriptureText(reference) {
       if (hasLetters) {
         queryRef = part;
         // Update context
-        const match = part.match(/^((?:\d\s*)?[a-zA-Z\.]+)\s*(\d+)?/);
+        const match = part.match(/^((?:\d\s*)?[a-zA-Z]+(?:\s+[a-zA-Z]+)*)\s*(\d+)/);
         if (match) {
           lastBook = match[1];
           if (match[2]) lastChapter = match[2];
@@ -178,12 +196,14 @@ export async function fetchScriptureText(reference) {
 
       // 3. Fetch this specific chunk
       const chunkHtml = await fetchSinglePassage(queryRef);
-      if (chunkHtml) {
-        fullHtml += (fullHtml ? '<div class="my-4 text-center text-stone-400 text-xs tracking-widest">***</div>' : '') + chunkHtml;
-      }
+      if (!chunkHtml) return null;
+      fullHtml += (fullHtml ? '<div class="my-4 text-center text-stone-400 text-xs tracking-widest">***</div>' : '') + chunkHtml;
     }
 
-    return fullHtml || null;
+    if (!fullHtml) return null;
+    return isaiahNumbering
+      ? `<p class="mb-2 text-xs italic">Douay-Rheims numbering: Isaiah 9:1-5</p>${fullHtml}`
+      : fullHtml;
 
   } catch (error) {
     console.error("Error fetching scripture:", error);
@@ -192,7 +212,8 @@ export async function fetchScriptureText(reference) {
 }
 
 async function fetchSinglePassage(ref) {
-  const cacheKey = `bible_text_${ref}`;
+  const cacheKey = `bible_text_v2_${ref}`;
+  const apiRef = DOUAY_RHEIMS_RANGES.get(ref.toLowerCase()) || ref;
   
   // 1. Check Cache
   try {
@@ -210,14 +231,37 @@ async function fetchSinglePassage(ref) {
   }
 
   try {
-    const response = await fetch(`${BASE_URL}/${encodeURIComponent(ref)}?translation=dra`);
-    if (!response.ok) return null;
+    const response = await fetch(`${BASE_URL}/${encodeURIComponent(apiRef)}?translation=dra`);
+    if (!response.ok) {
+      console.error(`Bible API rejected passage "${apiRef}" (HTTP ${response.status}).`);
+      return null;
+    }
     const data = await response.json();
+
+    const range = apiRef.match(/\s+(\d+):(\d+)(?:-(?:(\d+):)?(\d+))?$/);
+    const first = data.verses?.[0];
+    const last = data.verses?.[data.verses.length - 1];
+    if (!range || !first || !last
+      || first.chapter !== Number(range[1]) || first.verse !== Number(range[2])
+      || last.chapter !== Number(range[3] || range[1])
+      || last.verse !== Number(range[4] || range[2])
+      || data.verses.some((verse, index) => {
+        if (index === 0) return false;
+        const previous = data.verses[index - 1];
+        return verse.chapter === previous.chapter
+          ? verse.verse !== previous.verse + 1
+          : verse.chapter !== previous.chapter + 1 || verse.verse !== 1;
+      })) {
+      console.error(`Bible API returned an incomplete or invalid passage for "${apiRef}".`);
+      return null;
+    }
     
     // Transform verses into HTML with superscript numbers
-    const htmlContent = data.verses.map(v => 
+    const verseHtml = data.verses.map(v =>
       `<span class="text-xs align-top text-red-800 dark:text-red-400 font-bold mr-0.5 select-none">${v.verse}</span>${v.text}`
     ).join(' ');
+    const htmlContent = apiRef === ref ? verseHtml
+      : `<p class="mb-2 text-xs italic">Douay-Rheims numbering: ${apiRef}</p>${verseHtml}`;
     const cachePayload = { cachedAt: Date.now(), value: htmlContent };
 
     // 2. Save to Cache
