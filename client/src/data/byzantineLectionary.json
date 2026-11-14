@@ -419,7 +419,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "Eph. 4: 7 13",
+          "reference": "Eph. 4: 7-13",
           "book": ""
         },
         {
@@ -699,7 +699,7 @@
       "readings": [
         {
           "type": "gospel",
-          "reference": "John 11:1-45 Commemoration of our H",
+          "reference": "John 11:1-45",
           "book": ""
         }
       ]
@@ -3379,7 +3379,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "Heb. 7-26-8:2",
+          "reference": "Heb. 7:26-8:2",
           "book": ""
         },
         {
