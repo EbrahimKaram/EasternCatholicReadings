@@ -1,7 +1,7 @@
 import unittest
 from datetime import date
 
-from distill_byzantine_lectionary import readings_from_row
+from distill_byzantine_lectionary import DEFAULT_INPUT, distill, load_rows, readings_from_row
 from extract_readings import parse_reading_text
 
 
@@ -31,6 +31,29 @@ class GospelExtractionTests(unittest.TestCase):
             self.assertEqual(readings_from_row(row)[0]["reference"], "John 15:17-16:2")
             row["date"] = date(2026, 10, 27)
             self.assertEqual(readings_from_row(row)[0]["reference"], gospel)
+
+    def test_calendar_readings_survive_distillation(self):
+        lectionary, _ = distill(load_rows(DEFAULT_INPUT))
+        temporal = lectionary["temporal"]
+        self.assertEqual(
+            temporal["lent:sunday:1"]["readingsByYear"]["2024"][0]["reference"],
+            "Heb. 11: 24-26, 32-12:1",
+        )
+        self.assertEqual(
+            temporal["lent:sunday:1"]["readingsByYear"]["2026"][0]["reference"],
+            "Heb. 11: 24-26",
+        )
+        self.assertEqual(
+            temporal["afterPentecost:sunday:5"]["readingsByYear"]["2024"][1]["reference"],
+            "Matt. 8: 28-9:1",
+        )
+        self.assertEqual(
+            temporal["afterPentecost:sunday:5"]["readingsByYear"]["2026"][1]["reference"],
+            "Matt.8:28-34",
+        )
+        self.assertEqual(temporal["nativity:sunday:before"]["readings"][0]["reference"], "Heb. 11: 9-10; 17-23; 32-40")
+        self.assertEqual(temporal["councils:sunday:first-six"]["readings"][1]["reference"], "Matt. 5: 14-19")
+        self.assertEqual(lectionary["sanctoral"]["01-06"]["readings"][0]["reference"], "Titus 2:11-14; 3:4-7")
 
 
 if __name__ == "__main__":

@@ -17,7 +17,7 @@ from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 
-from byzantine_calendar import temporal_slot
+from byzantine_calendar import sunday_before, temporal_slot
 
 ROOT = Path(__file__).resolve().parent
 DEFAULT_INPUT = ROOT / "readings.csv"
@@ -152,6 +152,7 @@ def pick_majority(counter: Counter, default=None):
 def distill(rows: list[dict]) -> tuple[dict, list[str]]:
     temporal_titles = defaultdict(Counter)
     temporal_readings = defaultdict(Counter)
+    temporal_year_readings = defaultdict(lambda: defaultdict(Counter))
     sanctoral_titles = defaultdict(Counter)
     sanctoral_readings = defaultdict(Counter)
     sanctoral_fasting = defaultdict(Counter)
@@ -159,7 +160,12 @@ def distill(rows: list[dict]) -> tuple[dict, list[str]]:
     mismatches: list[str] = []
 
     for row in rows:
-        if row["skip"]:
+        # This combined PDF cell begins with the complete fifth Sunday readings.
+        fifth_sunday_overlay = (
+            row["date"] == date(2024, 6, 23)
+            and row["title"].startswith("/30 5th SUNDAY AFTER PENTECOST")
+        )
+        if row["skip"] and not fifth_sunday_overlay:
             continue
         d = row["date"]
         meta = temporal_slot(d)
@@ -168,6 +174,14 @@ def distill(rows: list[dict]) -> tuple[dict, list[str]]:
         sunday = d.weekday() == 6
         md = d.strftime("%m-%d")
         title = row["clean"]
+        if fifth_sunday_overlay:
+            title = "5th SUNDAY AFTER PENTECOST"
+
+        special_slot = None
+        if sunday and d == sunday_before(date(d.year, 12, 25)):
+            special_slot = "nativity:sunday:before"
+        elif sunday and d.month == 7 and 13 <= d.day <= 19:
+            special_slot = "councils:sunday:first-six"
 
         keep_temporal = sunday or meta["season"] in {
             "pascha",
@@ -176,10 +190,15 @@ def distill(rows: list[dict]) -> tuple[dict, list[str]]:
             "triodion",
             "pentecost",
         }
-        if keep_temporal and readings:
+        if special_slot and readings:
+            temporal_titles[special_slot][title or meta["title"]] += 1
+            temporal_readings[special_slot][readings_key(readings)] += 1
+        if keep_temporal and readings and not special_slot:
             temporal_titles[slot_key][title or meta["title"]] += 1
             temporal_readings[slot_key][readings_key(readings)] += 1
-        elif sunday:
+            if slot_key in {"lent:sunday:1", "afterPentecost:sunday:5"}:
+                temporal_year_readings[slot_key][d.year][readings_key(readings)] += 1
+        elif sunday and not special_slot:
             temporal_titles[slot_key][title or meta["title"]] += 1
 
         saint_title = title
@@ -228,12 +247,24 @@ def distill(rows: list[dict]) -> tuple[dict, list[str]]:
         refs = pick_majority(temporal_readings.get(key, Counter()), ())
         readings = [{"type": t, "reference": r, "book": ""} for t, r in refs]
         temporal[key] = {"title": title, "readings": readings}
+        if key in temporal_year_readings:
+            temporal[key]["readingsByYear"] = {
+                str(year): [{"type": t, "reference": r, "book": ""} for t, r in pick_majority(counts)]
+                for year, counts in sorted(temporal_year_readings[key].items())
+            }
 
     sanctoral = {}
     for md, titles in sanctoral_titles.items():
         title = pick_majority(titles, md)
         refs = pick_majority(sanctoral_readings.get(md, Counter()), ())
         readings = [{"type": t, "reference": r, "book": ""} for t, r in refs]
+        if md == "01-06":
+            # The 2024 PDF and St. George's calendar agree on the feast epistle.
+            readings = [
+                {**reading, "reference": "Titus 2:11-14; 3:4-7"}
+                if reading["type"] == "epistle" else reading
+                for reading in readings
+            ]
         fasting = pick_majority(sanctoral_fasting.get(md, Counter()))
         holy = sanctoral_holy.get(md, 0) > 0 and md in GREAT_FEASTS
         entry = {

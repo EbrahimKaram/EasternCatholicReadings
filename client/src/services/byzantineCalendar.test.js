@@ -83,6 +83,64 @@ describe('cosmetic Sunday labels', () => {
 });
 
 describe('resolveByzantineDay', () => {
+  const refs = (day) => Object.fromEntries(day.readings.map(({ type, reference }) => [type, reference]));
+
+  it('uses the St. George and 2024 PDF reading for Theophany', () => {
+    for (const year of [2024, 2025, 2026, 2030]) {
+      const day = resolveByzantineDay(`${year}-01-06`, lectionary);
+      assert.deepEqual(refs(day), {
+        epistle: 'Titus 2:11-14; 3:4-7',
+        gospel: 'Matt. 3:13-17',
+      });
+      assert.equal(day.source, 'sanctoral');
+    }
+  });
+
+  it('preserves the source-year readings for the first Sunday of Lent', () => {
+    assert.deepEqual(refs(resolveByzantineDay('2024-02-18', lectionary)), {
+      epistle: 'Heb. 11: 24-26, 32-12:1',
+      gospel: 'Jn. 1:43-51',
+    });
+    for (const date of ['2025-03-09', '2026-02-22']) {
+      assert.deepEqual(refs(resolveByzantineDay(date, lectionary)), {
+        epistle: 'Heb. 11: 24-26',
+        gospel: 'Jn. 1:43-51',
+      });
+    }
+  });
+
+  it('selects the fifth Sunday and Holy Fathers readings by their actual occasions', () => {
+    assert.deepEqual(refs(resolveByzantineDay('2024-06-23', lectionary)), {
+      epistle: 'Rom. 10: 1-10',
+      gospel: 'Matt. 8: 28-9:1',
+    });
+    assert.deepEqual(refs(resolveByzantineDay('2026-06-28', lectionary)), {
+      epistle: 'Rom. 10:1-10',
+      gospel: 'Matt.8:28-34',
+    });
+    for (const date of ['2024-07-14', '2025-07-13', '2026-07-19']) {
+      assert.deepEqual(refs(resolveByzantineDay(date, lectionary)), {
+        epistle: 'Tit. 3: 8-15',
+        gospel: 'Matt. 5: 14-19',
+      });
+    }
+    assert.deepEqual(refs(resolveByzantineDay('2025-08-03', lectionary)), {
+      epistle: '1 Cor 1: 10-17',
+      gospel: 'Matt. 14: 14-21',
+    });
+  });
+
+  it('selects the Sunday before Nativity by date rather than Pentecost week', () => {
+    for (const date of ['2024-12-22', '2025-12-21', '2026-12-20']) {
+      const day = resolveByzantineDay(date, lectionary);
+      assert.equal(day.slot, 'nativity:sunday:before');
+      assert.deepEqual(refs(day), {
+        epistle: 'Heb. 11: 9-10; 17-23; 32-40',
+        gospel: 'Mt.1: 1-25',
+      });
+    }
+  });
+
   it('uses Hebrews for the Annunciation epistle in each source year', () => {
     for (const year of [2024, 2025, 2026]) {
       const day = resolveByzantineDay(`${year}-03-25`, lectionary);

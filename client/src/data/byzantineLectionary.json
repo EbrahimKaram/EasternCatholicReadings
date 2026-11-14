@@ -370,16 +370,16 @@
       ]
     },
     "afterPentecost:sunday:31": {
-      "title": "SUNDAY BEFORE NATIVITY OF OUR LORD JESUS CHRIST (Sunday of the Holy Fathers)",
+      "title": "Sunday after the Theophany",
       "readings": [
         {
           "type": "epistle",
-          "reference": "Heb. 11: 9-10; 17-23; 32-40",
+          "reference": "Eph. 4: 7-13",
           "book": ""
         },
         {
           "type": "gospel",
-          "reference": "Mt. 1: 1-25",
+          "reference": "Matt 4:12-17",
           "book": ""
         }
       ]
@@ -475,19 +475,45 @@
       ]
     },
     "afterPentecost:sunday:5": {
-      "title": "Sunday of the Holy Fathers of the First Sixth Ecumenical Councils",
+      "title": "5th SUNDAY AFTER PENTECOST",
       "readings": [
         {
           "type": "epistle",
-          "reference": "Tit. 3: 8-15",
+          "reference": "Rom. 10: 1-10",
           "book": ""
         },
         {
           "type": "gospel",
-          "reference": "Matt. 5: 14-19",
+          "reference": "Matt. 8: 28-9:1",
           "book": ""
         }
-      ]
+      ],
+      "readingsByYear": {
+        "2024": [
+          {
+            "type": "epistle",
+            "reference": "Rom. 10: 1-10",
+            "book": ""
+          },
+          {
+            "type": "gospel",
+            "reference": "Matt. 8: 28-9:1",
+            "book": ""
+          }
+        ],
+        "2026": [
+          {
+            "type": "epistle",
+            "reference": "Rom. 10:1-10",
+            "book": ""
+          },
+          {
+            "type": "gospel",
+            "reference": "Matt.8:28-34",
+            "book": ""
+          }
+        ]
+      }
     },
     "afterPentecost:sunday:6": {
       "title": "6TH SUNDAY AFTER PENTECOST",
@@ -520,16 +546,16 @@
       ]
     },
     "afterPentecost:sunday:8": {
-      "title": "Sunday of the Holy Fathers of the First Six Ecumenical Councils",
+      "title": "8th SUNDAY AFTER PENTECOST",
       "readings": [
         {
           "type": "epistle",
-          "reference": "Titus 3: 8-15",
+          "reference": "1 Cor 1: 10-17",
           "book": ""
         },
         {
           "type": "gospel",
-          "reference": "Matt. 5: 14-19",
+          "reference": "Matt. 14: 14-21",
           "book": ""
         }
       ]
@@ -545,6 +571,21 @@
         {
           "type": "gospel",
           "reference": "Matt. 14: 22-34",
+          "book": ""
+        }
+      ]
+    },
+    "councils:sunday:first-six": {
+      "title": "Sunday of the Holy Fathers of the First Sixth Ecumenical Councils",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Tit. 3: 8-15",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Matt. 5: 14-19",
           "book": ""
         }
       ]
@@ -592,7 +633,45 @@
           "reference": "Jn. 1:43-51",
           "book": ""
         }
-      ]
+      ],
+      "readingsByYear": {
+        "2024": [
+          {
+            "type": "epistle",
+            "reference": "Heb. 11: 24-26, 32-12:1",
+            "book": ""
+          },
+          {
+            "type": "gospel",
+            "reference": "Jn. 1:43-51",
+            "book": ""
+          }
+        ],
+        "2025": [
+          {
+            "type": "epistle",
+            "reference": "Heb. 11: 24-26",
+            "book": ""
+          },
+          {
+            "type": "gospel",
+            "reference": "Jn. 1:43-51",
+            "book": ""
+          }
+        ],
+        "2026": [
+          {
+            "type": "epistle",
+            "reference": "Heb. 11: 24-26",
+            "book": ""
+          },
+          {
+            "type": "gospel",
+            "reference": "Jn. 1:43-51",
+            "book": ""
+          }
+        ]
+      }
     },
     "lent:sunday:2": {
       "title": "2nd Sunday of Lent - Gregory Palamas",
@@ -690,6 +769,21 @@
         {
           "type": "gospel",
           "reference": "John 11:1-45",
+          "book": ""
+        }
+      ]
+    },
+    "nativity:sunday:before": {
+      "title": "SUNDAY BEFORE NATIVITY OF OUR LORD JESUS CHRIST",
+      "readings": [
+        {
+          "type": "epistle",
+          "reference": "Heb. 11: 9-10; 17-23; 32-40",
+          "book": ""
+        },
+        {
+          "type": "gospel",
+          "reference": "Mt.1: 1-25",
           "book": ""
         }
       ]
@@ -1046,7 +1140,7 @@
       "readings": [
         {
           "type": "epistle",
-          "reference": "2 Tim 4:5-8",
+          "reference": "Titus 2:11-14; 3:4-7",
           "book": ""
         },
         {

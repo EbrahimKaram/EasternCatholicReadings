@@ -79,6 +79,29 @@ describe('Bible API passages', () => {
     assert.ok(await fetchScriptureText('Heb. 11: 33-12: 2'));
   });
 
+  it('fetches both parts of the 2024 Sunday of Orthodoxy epistle', async () => {
+    const requests = mockApi({
+      'Heb 11:24-26': verses(11, 24, 26),
+      'Heb 11:32-12:1': [...verses(11, 32, 40), ...verses(12, 1, 1)],
+    });
+    assert.ok(await fetchScriptureText('Heb. 11: 24-26, 32-12:1'));
+    assert.deepEqual(requests, ['Heb 11:24-26', 'Heb 11:32-12:1']);
+  });
+
+  it('preserves the corrected references when parsing reading card descriptions', () => {
+    const cases = [
+      ['Titus 2:11-14; 3:4-7', 'Matt. 3:13-17'],
+      ['Heb. 11: 24-26, 32-12:1', 'Jn. 1:43-51'],
+      ['Rom. 10:1-10', 'Matt.8:28-34'],
+      ['Heb. 11: 9-10; 17-23; 32-40', 'Mt.1: 1-25'],
+    ];
+    for (const [epistle, gospel] of cases) {
+      const parsed = parseReadingDescription(`Epistle: ${epistle}\nGospel: ${gospel}\nTone 5\nMatins Gospel: 8`);
+      assert.equal(parsed.epistle, epistle);
+      assert.equal(parsed.gospel, gospel);
+    }
+  });
+
   it('maps and labels verified Douay-Rheims verse numbering', async () => {
     const cases = [
       ['1 Th 4:13-18', '1 Thessalonians 4:12-17', 4, 12, 17],

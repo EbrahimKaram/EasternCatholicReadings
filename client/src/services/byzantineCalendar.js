@@ -317,9 +317,10 @@ export const temporalSlot = (input) => {
   return slot(`unknown:${isoDate(d)}`, weekdayName(d), 'unknown', null, tone, matins, offset);
 };
 
-const toReadings = (entry) => {
-  if (!entry?.readings?.length) return [];
-  return entry.readings
+const toReadings = (entry, year) => {
+  const readings = entry?.readingsByYear?.[year] ?? entry?.readings;
+  if (!readings?.length) return [];
+  return readings
     .map((item) => ({
       type: item.type,
       reference: item.reference,
@@ -342,10 +343,17 @@ export const resolveByzantineDay = (input, lectionary) => {
   const temporal = temporalSlot(d);
   const md = monthDayKey(d);
   const feast = lectionary?.sanctoral?.[md] ?? null;
-  const temporalTable = lectionary?.temporal?.[temporal.key] ?? null;
   const sunday = isSunday(d);
-  const feastReadings = toReadings(feast);
-  const temporalReadings = toReadings(temporalTable);
+  let readingSlot = temporal.key;
+  if (sunday && diffDays(d, sundayBefore(civilDate(year, 12, 25))) === 0) {
+    readingSlot = 'nativity:sunday:before';
+  } else if (sunday && month === 7 && day >= 13 && day <= 19) {
+    readingSlot = 'councils:sunday:first-six';
+  }
+  const temporalTable = lectionary?.temporal?.[readingSlot] ?? lectionary?.temporal?.[temporal.key] ?? null;
+  if (!lectionary?.temporal?.[readingSlot]) readingSlot = temporal.key;
+  const feastReadings = toReadings(feast, year);
+  const temporalReadings = toReadings(temporalTable, year);
 
   let title = temporal.title;
   let readings = temporalReadings;
@@ -378,7 +386,7 @@ export const resolveByzantineDay = (input, lectionary) => {
     title,
     liturgic_title: title,
     readings,
-    slot: source === 'sanctoral' ? `sanctoral:${md}` : temporal.key,
+    slot: source === 'sanctoral' ? `sanctoral:${md}` : readingSlot,
     season: temporal.season,
     source,
     tone: temporal.tone,
